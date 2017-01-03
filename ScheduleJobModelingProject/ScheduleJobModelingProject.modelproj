@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b1c3b899-17ec-4b71-9f03-080c3e8ab09f}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ScheduleJobModelingProject</Name>
+    <RootNamespace>ScheduleJobModelingProject</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="ClassDiagram_ScheduleHostServiceArchitect.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="frmScheduleJobUI_btnStartNewJob_Click.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="frmScheduleJobUI_btnStartNewJob_Click.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>frmScheduleJobUI_btnStartNewJob_Click.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="MainThread_ServiceWorkerThread.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MainThread_ServiceWorkerThread.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MainThread_ServiceWorkerThread.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1055.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1055.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1055.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1055.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MxicScheduleJob_Core_ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MxicScheduleJob_Core_ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MxicScheduleJob_Core_ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MxicScheduleJob_Domain_ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MxicScheduleJob_Domain_ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MxicScheduleJob_Domain_ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MxicScheduleJob_HostService_ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MxicScheduleJob_HostService_ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MxicScheduleJob_HostService_ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MxicScheduleJob_JobBase_ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MxicScheduleJob_JobBase_ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MxicScheduleJob_JobBase_ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MxicScheduleJob_Service_ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MxicScheduleJob_Service_ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MxicScheduleJob_Service_ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MxicScheduleJob_Store_ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MxicScheduleJob_Store_ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MxicScheduleJob_Store_ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MxicScheduleJob_WinScheduleUI_ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MxicScheduleJob_WinScheduleUI_ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MxicScheduleJob_WinScheduleUI_ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Mxic_ScheduleJob_需求分析_UseCaseDiagram.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mxic_ScheduleJob_需求分析_UseCaseDiagram.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Mxic_ScheduleJob_需求分析_UseCaseDiagram.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="RunningJobs_GetCurrentRunningJob.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RunningJobs_GetCurrentRunningJob.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>RunningJobs_GetCurrentRunningJob.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="ScheduleJobComponentDiagram.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ScheduleJobComponentDiagram.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ScheduleJobComponentDiagram.componentdiagram</DependentUpon>
+    </Content>
+    <Content Include="WorkerThread_ReTry.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="WorkerThread_ReTry.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>WorkerThread_ReTry.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="WorkerThread_StartNewScheduleJob.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="WorkerThread_StartNewScheduleJob.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>WorkerThread_StartNewScheduleJob.sequencediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ScheduleJobModelingProject.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

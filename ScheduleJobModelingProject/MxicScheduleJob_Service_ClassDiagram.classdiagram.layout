@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MxicScheduleJob_Service_ClassDiagram">
+  <logicalClassDesignerModelMoniker Id="198df6cc-d5fa-47c1-b11b-003c8e6f8186" />
+  <nestedChildShapes>
+    <interfaceShape Id="a66416b3-1f93-4b57-ba24-13f2e5d9df3e" absoluteBounds="0.5, 1.5, 3.5, 1.3360611979166666" hideQualifiedName="false" increaseHeight="0.20650390625" customColor="207, 223, 191">
+      <interfaceMoniker Id="8808d5d2-f208-4670-8c77-65c235132067" LastKnownName="IScheduleJobService" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="070e6374-cb4e-4426-bd82-f130de442ee6" absoluteBounds="0.515, 2.09650390625, 3.4699999999999998, 0.226318359375" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="9db4c097-7200-4001-88bf-e628e79ca7db" absoluteBounds="0.515, 2.332822265625, 3.4699999999999998, 0.40323893229166663" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+    <classShape Id="d2af32ef-5496-4700-a7b7-791f47e14db4" absoluteBounds="4.5, 0.5, 2.875, 1.4441471354166668" hideQualifiedName="false" increaseHeight="0.20650390625" customColor="181, 193, 223">
+      <classMoniker Id="f4718e79-421d-42fb-9954-578f56a0576d" LastKnownName="ScheduleJobWcfService" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="e0fc4aa0-126e-42e4-9744-79568b99999d" absoluteBounds="4.515, 1.0276692708333335, 2.8449999999999998, 0.226318359375" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="f5f6ad46-868f-4cf8-9709-c5fa7093c5b8" absoluteBounds="4.515, 1.2639876302083333, 2.8449999999999998, 0.58015950520833337" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <realizationConnector edgePoints="[(4.5 : 1.72207356770833); (4 : 1.72207356770833)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" showAsLollipop="false">
+      <interfaceRealizationMoniker Id="b8a454c4-97f2-4096-abae-6c9c66dfc7f3" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="d2af32ef-5496-4700-a7b7-791f47e14db4" />
+        <interfaceShapeMoniker Id="a66416b3-1f93-4b57-ba24-13f2e5d9df3e" />
+      </nodes>
+    </realizationConnector>
+    <classShape Id="2d4b083d-0389-456d-be44-ce0eb4fc4472" absoluteBounds="4.5, 2.375, 2.875, 1.7979882812499994" hideQualifiedName="false" increaseHeight="0.20650390625" customColor="181, 193, 223">
+      <classMoniker Id="04a9208e-ecdb-4e85-82cf-0ee0136b9d0a" LastKnownName="WcfHostService" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="be323935-9b63-49c3-bf15-174047c70f27" absoluteBounds="4.515, 2.9026692708333335, 2.8449999999999998, 0.40323893229166663" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="05ffb429-0a7d-4e82-9b3d-70b9f7df2b4c" absoluteBounds="4.515, 3.315908203125, 2.8449999999999998, 0.757080078125" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

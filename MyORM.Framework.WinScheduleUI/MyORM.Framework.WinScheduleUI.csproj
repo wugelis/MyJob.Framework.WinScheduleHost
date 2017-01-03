@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{575B6C2A-388B-4E1C-AF9C-EC766BB704AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyORM.Framework.WinScheduleUI</RootNamespace>
+    <AssemblyName>MyORM.Framework.WinScheduleUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\ACTIVITL.ICO</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAddOrEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddOrEdit.Designer.cs">
+      <DependentUpon>frmAddOrEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScheduleJobUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScheduleJobUI.Designer.cs">
+      <DependentUpon>frmScheduleJobUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysSetting.Designer.cs">
+      <DependentUpon>frmSysSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ScheduleJobServices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAddOrEdit.resx">
+      <DependentUpon>frmAddOrEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScheduleJobUI.resx">
+      <DependentUpon>frmScheduleJobUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysSetting.resx">
+      <DependentUpon>frmSysSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="Properties\DataSources\Mxic.Framework.ScheduleJob.Store.RunningJobStatus.datasource" />
+    <None Include="Properties\DataSources\MyORM.Framework.ScheduleJob.Store.RunningJobStatus.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ScheduleJobServices\ScheduleJobService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ScheduleJobServices\ScheduleJobService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ScheduleJobServices\ScheduleJobService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ScheduleJobServices\ScheduleJobWcfService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainWindow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACTIVITL.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APPTL.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyORM.Framework.ScheduleJob.Core\MyORM.Framework.ScheduleJob.Core.csproj">
+      <Project>{9b8d22b3-a519-4e3b-8953-fb30ea0dfef8}</Project>
+      <Name>MyORM.Framework.ScheduleJob.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyORM.Framework.ScheduleJob.Engine\MyORM.Framework.ScheduleJob.Engine.csproj">
+      <Project>{991d3b5d-9091-4f4d-99f9-dd2bb800c3da}</Project>
+      <Name>MyORM.Framework.ScheduleJob.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyORM.Framework.ScheduleJob.Store\MyORM.Framework.ScheduleJob.Store.csproj">
+      <Project>{4fe0e3ab-21f9-4d94-bd23-bf1e83383106}</Project>
+      <Name>MyORM.Framework.ScheduleJob.Store</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ScheduleJobServices\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ScheduleJobServices\ScheduleJobService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ScheduleJobServices\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ScheduleJobServices\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ScheduleJobServices\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

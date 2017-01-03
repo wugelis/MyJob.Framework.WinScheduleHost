@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="1383a77c-0e78-4455-ae7f-4ac806a55c94" name="ClassDiagram_ScheduleHostServiceArchitect" linkedPackageId="0393faa5-3ae7-4d15-a073-9cc1b57177c0" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4d8ef2d8-d56d-4e69-a229-62a65db91d19" name="ServiceHostEngine" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="60a9ddef-f1dc-420f-9d11-7bcb5c518bc1" />
+        <suppliersInternal>
+          <dependency Id="962d443f-98a3-4852-880f-244d2a314c7d">
+            <classMoniker Id="21e027ac-b682-421d-8a26-9813cecbfef8" LastKnownName="ScheduleHostService" />
+            <elementDefinition Id="3278edbf-0a50-4447-a8d2-ed74727b8fd7" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="21e027ac-b682-421d-8a26-9813cecbfef8" name="ScheduleHostService" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2d065a0d-d591-4852-9711-09eb084a98ba" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="18325bbe-3e8c-405d-bc33-c02013b24abb" name="ScheduleJob.Core" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f9c4b785-dd0c-4671-a3d6-6aa6686a580e" />
+        <suppliersInternal>
+          <dependency Id="d7241792-4b6c-4ae7-9490-6e3b9a244a45">
+            <classMoniker Id="4d8ef2d8-d56d-4e69-a229-62a65db91d19" LastKnownName="ServiceHostEngine" />
+            <elementDefinition Id="9026f87a-c9bd-4f6a-8f60-8d8c0412693e" />
+          </dependency>
+          <dependency Id="825bfd69-da06-42a2-bd29-7febe3164ec5">
+            <classMoniker Id="21e027ac-b682-421d-8a26-9813cecbfef8" LastKnownName="ScheduleHostService" />
+            <elementDefinition Id="ea5cbc2b-75d7-4b9b-a442-11c76021ec7a" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bc554a45-2dde-4a48-a2a6-efbce3e98ed5" name="ScheduleJob.Store" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2949a53a-2b17-4b91-9155-1ad940395d9e" />
+        <suppliersInternal>
+          <dependency Id="3a3fb7ac-7678-4aa4-afa7-713b55a3b689">
+            <classMoniker Id="21e027ac-b682-421d-8a26-9813cecbfef8" LastKnownName="ScheduleHostService" />
+            <elementDefinition Id="90ef61c9-39c1-40c8-906d-d9bf9def2fcb" />
+          </dependency>
+          <dependency Id="67a7f64a-0cfc-4311-94be-95cda45970dd">
+            <classMoniker Id="4d8ef2d8-d56d-4e69-a229-62a65db91d19" LastKnownName="ServiceHostEngine" />
+            <elementDefinition Id="33f7cfa9-69eb-431a-96bd-28c069cbd147" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c3c4ea73-3cb2-4f8b-b4df-a66ac6ede828" name="ScheduleJobBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b3da832e-a36f-4611-b3e8-d512f4ad97c8" />
+        <suppliersInternal>
+          <dependency Id="33993b69-4198-404e-bf72-263d303b460e">
+            <interfaceMoniker Id="0f2c0ee9-9c12-4934-8dab-90915f47794d" LastKnownName="IJob" />
+            <elementDefinition Id="7e545ef8-8d4a-4cc4-97c7-b83a81e41eda" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b5c77377-9b6c-430f-acb8-a9d52246dee3" name="RunningJob" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ba17b964-29c4-4f8e-bb7a-bae7989483c3" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="50f24d45-7abf-48c5-9e72-9bebfe2ab9d1" name="ListJobData" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8e2c7b78-c2ad-4f46-b171-6f2b848b2626" />
+        <suppliersInternal>
+          <dependency Id="b7e2c55a-fde0-4bba-9986-eedecc55ccb4">
+            <classMoniker Id="c116f1a0-bcb4-4900-8bc8-0261a38aa95e" LastKnownName="JobData" />
+            <elementDefinition Id="94337167-1585-48ce-91bf-e67d2ac1efd5" />
+          </dependency>
+          <dependency Id="af2a86af-aba9-4bbc-9e49-dd349da258be">
+            <classMoniker Id="bc554a45-2dde-4a48-a2a6-efbce3e98ed5" LastKnownName="ScheduleJob.Store" />
+            <elementDefinition Id="b4cb173a-8950-49c5-8aaf-f0bb31796634" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="afa9c103-4981-45df-bb5d-e7fd5da47d17" name="JobDatas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b50e969d-83d6-4b66-8eea-c7f82df2cd8e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="08874f5d-e808-4d9f-886e-ba0460e7428b" LastKnownName="JobData[]" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c116f1a0-bcb4-4900-8bc8-0261a38aa95e" name="JobData" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5b842cb6-5d5e-4ace-98a2-696db759199c" />
+        <suppliersInternal>
+          <dependency Id="b5f09e97-7107-489e-966f-c50bc1866740">
+            <classMoniker Id="b5c77377-9b6c-430f-acb8-a9d52246dee3" LastKnownName="RunningJob" />
+            <elementDefinition Id="b5448442-9732-44af-8be4-df6e85ae398b" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="08874f5d-e808-4d9f-886e-ba0460e7428b" name="JobData[]" isAbstract="false" isLeaf="false" cachedFullName="JobData[]">
+        <elementDefinition Id="550e308a-ee3c-42f2-844b-89744d8ec12f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="0f2c0ee9-9c12-4934-8dab-90915f47794d" name="IJob" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7ece3ddc-09f8-4293-bc26-ee6aeef85538" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c84cef6b-7ca4-4bc8-8ed4-56398366af90" name="ThreadWorker" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b0f37194-ba78-4079-8214-f6feb1bb6398" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="95e6ee5e-08d1-4600-ab0a-4ef039791c1d" name="MainThread" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3a05b6e4-631c-4a1d-8a8f-576932dcc14c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="0393faa5-3ae7-4d15-a073-9cc1b57177c0" name="Mxic.Framework.ModelingProject">
+    <elementDefinition Id="40da5d32-0d8d-4fea-ba54-9348b79fbb3e" />
+    <profileInstances>
+      <packageHasProfileInstances Id="2bd53869-d514-427c-8229-15ce622414a4">
+        <profileInstance Id="564fc537-b35c-43b1-bc61-654683facf98" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="0221c2a1-fd04-4fda-ad42-1bf256c8d625">
+        <profileInstance Id="9b755552-b87c-41e9-a01f-0cecc4e5cbb1" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,2163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c4496d38-332d-4704-a541-28505bf1942b"
+  name="Core"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7d90d7dd-ef9f-4cb7-b43a-0d8c1f6f6b9f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMxic.Framework.ScheduleJob.Core"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c0ac464b-00db-4c61-bc07-187ed7431f81"
+        name="IActionNotImplementException"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d51bce2f-26ae-4b1e-89bd-4e800e53a704"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DIActionNotImplementException"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="157c9b59-e17f-472f-9c4f-c92bb4e3ff2d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6eb93f13-dbfd-4cf7-b1c0-902a1e4e6be6">
+                <propertyInstance
+                  Id="2ed39d26-6936-4438-a629-93e1166511de"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f756520e-c59d-466f-80c7-947eb6683bb5">
+                <propertyInstance
+                  Id="a5160b76-7d0a-4dd8-9c58-a39ff5362213"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b3173780-01ec-43d7-8767-4ef945958646">
+                <propertyInstance
+                  Id="fc52dd7f-f95a-45c7-aa59-71905f1ef5e3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d98f8fe0-d80c-450d-a25a-67c1706af456">
+                <propertyInstance
+                  Id="a7800e17-5c42-4af7-9803-b8ef6521ac4d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="023a124a-144e-425c-b78e-196c1dfff3d1">
+                <propertyInstance
+                  Id="0e6888ae-832f-437d-8706-c650f7496af1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="7d47648a-671a-4bc8-9627-eb5111891914"
+            isSubstitutable="false">
+            <classMoniker
+              Id="7195f9ec-026e-418f-88e6-9c6d73e01647"
+              LastKnownName="JobExecuteException"
+              LastKnownLocation="Package_1432.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ded126d5-69e4-4c62-abcf-08bb3e2046ad"
+            name="IActionNotImplementException"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="15f26029-08f9-451e-b32a-660f36544ece"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DIActionNotImplementException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0a62cbac-724e-4395-be6f-e8b6eb81c1d2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9328b3e4-5a8c-4d5f-bd61-4f17cb693c12">
+                    <propertyInstance
+                      Id="1a8ce7cf-249d-4e80-93eb-c5fdb87e8538"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae1bf6c4-7a8f-4b6f-936d-620a4601f2fe">
+                    <propertyInstance
+                      Id="ea91471b-c176-4afa-bbde-1bdcd286e9b2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d60c072-54be-488c-8868-08086d63104c">
+                    <propertyInstance
+                      Id="8a1b1247-5fca-4ae0-bc6c-5ffc58ee3834"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81c9424f-869c-44af-825f-cc23b75f8d37">
+                    <propertyInstance
+                      Id="b95dca78-c853-4ee2-85d8-73feda6bc451"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83fef9b4-1d33-48ad-84fb-0735ee5dad98">
+                    <propertyInstance
+                      Id="65e4ad5f-2c46-414b-ba84-d2a44841a203"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bec3d65-497a-4558-896e-6273361c7d1d">
+                    <propertyInstance
+                      Id="b7eda7d7-ee64-4daa-848d-8f53098f8824"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e8945d25-b2fc-45f1-a849-ecd4d246a40a"
+                  name="Message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8e96a341-a729-4ad9-8731-f5d0119f26f1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DIActionNotImplementException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DMessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ScheduleJobModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4576b530-daf6-4228-a5ef-a1adfd4a4dd2"
+                  name="InnerException"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="356b7b8a-5de3-43ff-8d93-f2629839c3c1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DIActionNotImplementException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DInnerException"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e955a70f-04de-44c7-ac88-b1c85c56c41e"
+                      LastKnownName="Exception"
+                      LastKnownLocation="Package_1342.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0b605c7b-5c85-45f6-a443-188bbe827c59"
+            name="IActionNotImplementException"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c8463610-1eff-49cf-b9ea-7aa06e3cd93d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DIActionNotImplementException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="258ed6ae-59d4-4aca-b555-3613168aff95"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea54c94c-d173-49fc-a53b-603e9f16fa03">
+                    <propertyInstance
+                      Id="f5d1338a-b752-4e69-9fe5-8af2582a8373"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66143922-21e9-43fc-beff-7470c4b393b6">
+                    <propertyInstance
+                      Id="0fcdbbf8-7073-41dc-afba-af5f8ad5be4b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6bd889a-32b9-4f74-87e0-20dc995e619f">
+                    <propertyInstance
+                      Id="2217d24e-63ef-4563-aaa2-cbfb41f29821"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9cf3c12-4061-4cb6-839c-f6aa8431fbe9">
+                    <propertyInstance
+                      Id="f8cb5e12-02d7-4f0c-9659-14444783a151"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0a22163-ea6d-4a97-aa61-9c4a114e21cb">
+                    <propertyInstance
+                      Id="8a6622a0-d575-4fca-8ff0-88eafc62de02"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3836a5d4-ce4c-4776-ba48-77ac248815e7">
+                    <propertyInstance
+                      Id="093a3891-87f7-46cd-a685-81dfcb417060"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fca50863-15b6-4f4d-9f83-781eb954f64e"
+                  name="Message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="db604cfd-c4c1-44d5-a380-5139b0ee2837"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DIActionNotImplementException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DMessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ScheduleJobModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7195f9ec-026e-418f-88e6-9c6d73e01647"
+        name="JobExecuteException"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="edf969a1-a328-4a85-8196-d74264e2e96e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="11552cb8-51a2-48d3-a675-695b12634b81"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6705d2ba-fb84-464d-9152-df4777e0be1e">
+                <propertyInstance
+                  Id="567a758b-df01-4b32-8c64-fc23588dd309"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ee0b30c-786b-49bb-9f73-bbb29f5bdcea">
+                <propertyInstance
+                  Id="52148488-4db8-4ecc-884d-133a19bc7460"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24361901-a143-447f-99af-f4744099bcb8">
+                <propertyInstance
+                  Id="a00344a4-f0cc-4b74-b7a3-a5a78bcfeeca"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7eada5af-43ed-485f-95ad-8d39acbbc246">
+                <propertyInstance
+                  Id="18793d4e-73d4-4cbf-ba91-ab1b3a123b06"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="064cb8e6-a864-4b05-939b-ae56945234b4">
+                <propertyInstance
+                  Id="ddb05871-07f3-4fe4-9e44-71c8573f66ff"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="3e43421c-814d-412a-8799-ca2e040a75a7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="e955a70f-04de-44c7-ac88-b1c85c56c41e"
+              LastKnownName="Exception"
+              LastKnownLocation="Package_1342.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="0bfda797-4fd8-49ff-b105-1d4d42a43dda"
+            isDerived="false"
+            sourceEndRoleName="JobExecuteException"
+            targetEndRoleName="Datetime"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d95429be-90a4-4d70-a607-a44645544f0b"
+              LastKnownName="DateTime"
+              LastKnownLocation="Package_1342.uml" />
+            <description>屬性 Datetime 會參考類型 DateTime。</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a6c6bf37-d2fb-4933-8c15-4a59a7278b0b"
+                  name="JobExecuteException"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c39db234-511c-443b-a9ee-8adeab712770"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="97cda42b-ca75-4822-b835-febeae5513d9"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c718a4e2-e5c1-43b9-9f6b-c36741267517"
+                  name="Datetime"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c427eeba-4eaf-4056-9ab6-eaef50f79cf5"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2ec0f807-7379-45e0-aa5c-2a0335d2d6c2"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="60a6848d-303a-41bd-ac87-24cbe440385d"
+            name="Datetime"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="69ec6bf4-f832-45b0-98a6-3b57bd3b100d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3DDatetime"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a96f25f-11e4-49a1-8e4c-d7826df25d1c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6013be84-9ea5-4b66-884e-3c909a566ecf">
+                    <propertyInstance
+                      Id="aacfdad0-ebf2-436c-8dda-2e9c22d4665c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a747acf-40f7-4e6e-9566-6563879f9055">
+                    <propertyInstance
+                      Id="9e99c48b-d9b9-4afe-b3dc-a328d82e29d7"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d81e369-1d74-4e2f-bab8-e23a0df369e5">
+                    <propertyInstance
+                      Id="f0588312-1017-47aa-ab0a-2cc84a0f28d3"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e2478ee-ddf4-49f3-933d-4c0c2d8bce57">
+                    <propertyInstance
+                      Id="9286db55-ffce-409e-aae3-c8082d31597e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18890869-edd5-4215-88b5-1b5c4d6c9041">
+                    <propertyInstance
+                      Id="5a6175df-85bf-4690-8b2a-e07ee4d784aa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c75de28-9558-4b35-bad5-1a87f33844c2">
+                    <propertyInstance
+                      Id="844484aa-844b-4900-8845-3d211393e26b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="738dcc65-91d3-42be-a647-6731d3a698cd">
+                    <propertyInstance
+                      Id="df849f9e-29b7-4717-ba19-32e7647f3abe"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d95429be-90a4-4d70-a607-a44645544f0b"
+                LastKnownName="DateTime"
+                LastKnownLocation="Package_1342.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3d645d8a-7db4-4990-9249-0ad695281137"
+            name="UserName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5f43558b-ff8c-4b1f-b40c-ae4179d763a3"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3DUserName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8e6fcfcf-6f61-4000-b7c5-f8f31129d867"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23e2c68e-9358-46c9-88b7-8bcc58b4ae7a">
+                    <propertyInstance
+                      Id="574ce4fc-ccef-4b97-ad61-e81efd52b9c5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f006e5b-0a6f-440d-baff-fe3ad71060b3">
+                    <propertyInstance
+                      Id="2f2d47e8-86a4-4383-80cd-1cac4c032d1d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76825b29-9850-408a-bf51-bb96628535b8">
+                    <propertyInstance
+                      Id="ad8054c3-2e5b-4c35-9d7d-b86836955b91"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c68be16-525a-4fff-814c-442052353444">
+                    <propertyInstance
+                      Id="84b6a12e-e4af-4315-8b38-06c7c4f1a902"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9720e34f-772f-4bba-a8ea-bab602a92c81">
+                    <propertyInstance
+                      Id="4122e67b-10d2-4ef1-b2ef-d97c8fca453d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da2cba19-8155-4efa-aaa6-8354fb53bb50">
+                    <propertyInstance
+                      Id="a1b3fbc0-79db-4c14-b40f-adf4f0b8bcd4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39b21c9d-bc0e-4150-a0eb-1314c4006f64">
+                    <propertyInstance
+                      Id="b92dc1c4-d8f6-4ba0-bf5f-d0f001e2dd46"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ScheduleJobModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5dcf3b69-b818-4add-a07c-19ea00503530"
+            name="HostLocation"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4fb51c71-b9b5-455c-b8d7-79ca17f85e5b"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3DHostLocation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ddf2702-43a2-448c-a8a6-67e385157870"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a9043f2-a280-40ff-8985-95d59b0f924f">
+                    <propertyInstance
+                      Id="b265164d-415d-4628-a588-236166ee63ad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b581ab2e-2e01-467c-93fb-f48d6bc02314">
+                    <propertyInstance
+                      Id="ae7700a0-cff2-4a62-99a6-68f98c761233"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53085627-646d-43cf-86a6-2f4e6157b8e9">
+                    <propertyInstance
+                      Id="c0335fdc-8fb9-4330-80ee-74281d4c3ce3"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c01f6382-fa1d-48e2-a263-fb1b371c4c20">
+                    <propertyInstance
+                      Id="401da144-8f8f-4433-a73e-aee570e08b6a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09a515c3-a6b5-45aa-a0e0-a6327a69b3d1">
+                    <propertyInstance
+                      Id="d08fc776-0858-426a-9efd-3ca24dd1de68"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d111b4c-0f81-49ca-b700-51bf61a455a6">
+                    <propertyInstance
+                      Id="03970317-440e-4c35-9b59-d9f73a0a33ff"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1870cdf-615d-4b31-a1bd-de5f7cc8bfe8">
+                    <propertyInstance
+                      Id="e659fcbc-9b86-4883-a388-4a9a0e27b058"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ScheduleJobModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="833a65f7-1b86-4f4c-a1e9-4cd72b4ad2e4"
+            name="MethodInfo"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c39d334d-333e-4fc2-9428-93faa82fc8f7"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3DMethodInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="084401ca-3b81-42e7-a077-6e1b8635d32f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51174373-1e5e-4601-ba41-fcbf257311c8">
+                    <propertyInstance
+                      Id="bf30567f-fd53-47ea-a39f-add0b069de4c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43e62c59-3bbd-4c9a-b58f-b8b210d3e775">
+                    <propertyInstance
+                      Id="5e47ee02-118a-4d3c-b825-01e7adb18b15"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9e006d0-5c87-4b85-a5e3-40d0841d280e">
+                    <propertyInstance
+                      Id="bac37516-e614-4878-ba92-991bb3e4827a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7683886-1727-447f-977c-35a3d0d4a428">
+                    <propertyInstance
+                      Id="a3b2a895-104d-4612-9201-42c6d9830731"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a82903e8-5850-4b35-9e85-b61b6a1c228e">
+                    <propertyInstance
+                      Id="07cb1eec-a036-4488-842d-f536361deda9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86e03d7a-9d76-4c5c-9ebf-1a803c463563">
+                    <propertyInstance
+                      Id="a079267b-537c-4c29-a396-f58f5c14bbb3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd8a3954-4ee9-4218-b9bf-64048eaa0f78">
+                    <propertyInstance
+                      Id="71590592-ed3d-4739-a717-550ab9b55d0a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ScheduleJobModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9e0f4516-41d2-4ed1-88a0-be9eb20a8073"
+            name="JobExecuteException"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="65eb5693-f88e-45aa-bb07-7a10a379aba9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ebf9772-bdb1-44cc-a629-168623efdc61"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19e68925-6628-47eb-9a95-2b61daa5800c">
+                    <propertyInstance
+                      Id="0bcbd0df-2df2-438c-825e-d43f9c108ea5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fe042dc-d395-415f-8913-41f25349c64c">
+                    <propertyInstance
+                      Id="8a5c1933-de73-44d0-9c5c-55fe0a8399a8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54bd4457-fc8d-4dd7-bb8a-f23a250d4b93">
+                    <propertyInstance
+                      Id="8ba7e556-6d50-43b1-891b-de3e5a2053d9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b8f70c6-9036-4df9-b5a9-c9188ef0c29b">
+                    <propertyInstance
+                      Id="70ebdaab-fcf6-4d24-945f-b6621a748776"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16ce432a-60e4-473a-a5ff-f27358287231">
+                    <propertyInstance
+                      Id="37f8f9db-3c3e-4a76-a180-6ac5368f9ca4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c708e9d3-2810-4b32-9aa1-a5d40ddd172d">
+                    <propertyInstance
+                      Id="eb78435d-6bbb-41a7-9496-74571ae2501b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8d3cc8f7-d803-4614-b863-18b972e5b0a2"
+                  name="Message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="20ab121c-b31c-4413-b7b8-65efab121b22"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DMessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ScheduleJobModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fe11dac6-96bc-47cb-8fec-14b0c93ae130"
+            name="JobExecuteException"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9378b014-55eb-4980-b707-25acc58c68c5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ea186467-0f1f-4a29-aa7e-23aa3fa64d85"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64edee05-890f-4953-91a6-f7b4dcda5980">
+                    <propertyInstance
+                      Id="cae7d35a-132a-4d91-aebc-6fb493bc88c9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7932b815-e915-4c7e-97a6-8a19b2bc9f04">
+                    <propertyInstance
+                      Id="8c1c932e-9ba9-424d-8721-a7a7333e92c6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f217322-e6df-40e6-b677-777eac6be77b">
+                    <propertyInstance
+                      Id="a4b17ffb-89c5-4137-8a37-2dc4267db035"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="296b579c-85e4-41c1-a6cd-2cd099019530">
+                    <propertyInstance
+                      Id="ed46be94-2acf-4f10-8d1e-9757ae632167"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7e2909e-2cea-4323-9460-9b70c3cd5353">
+                    <propertyInstance
+                      Id="ab883704-5e28-4195-b426-7771ab586962"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf77507f-b594-4f3e-a9a8-2e13722a48d5">
+                    <propertyInstance
+                      Id="5a311f28-f85e-4dcc-af49-b48d770e65b5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b4a43847-a433-48c4-ae41-ca33cda925ac"
+                  name="Message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="03e7bd6f-656f-4b3a-8887-73eb79a10938"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DMessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ScheduleJobModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5d651145-b2e6-4a6f-9cfc-ee758dac7ae2"
+                  name="InnerException"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7dba3a30-39b8-4edb-a91d-493a214030ee"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobExecuteException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DInnerException"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e955a70f-04de-44c7-ac88-b1c85c56c41e"
+                      LastKnownName="Exception"
+                      LastKnownLocation="Package_1342.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a2bef67f-bc96-472b-a561-278c705cb2c6"
+        name="JobDLLNotFoundException"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9e3aa31b-54d4-4d25-914b-111f7f1a28b0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobDLLNotFoundException"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ad5dff48-a830-4986-9205-afe344bbec3b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7cf55c1-cb0d-4968-8c21-306f803a58e1">
+                <propertyInstance
+                  Id="97811a2a-2f73-4ed1-aeab-e2bc0a9df8db"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="261e2647-8d90-4d69-b90e-44168c2d9aa2">
+                <propertyInstance
+                  Id="f8bb7022-8a9f-446b-9e9f-39fecb6ed259"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="459dc8c8-33fd-4d8f-8f8e-4ca3d6c211c5">
+                <propertyInstance
+                  Id="a7ce89c2-a864-449d-bbb2-b44735f597da"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac57d53d-03d5-40f7-a098-5fb498f51ddb">
+                <propertyInstance
+                  Id="5ecd1b62-6162-4167-925a-5e1979f83a53"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ba74c9a-c966-40d7-8f6e-a37d7aec0e9d">
+                <propertyInstance
+                  Id="42c82ce3-c51e-430b-9b70-ade4506038c6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="5bc25a93-8660-487c-b3ca-135c4812842f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="7195f9ec-026e-418f-88e6-9c6d73e01647"
+              LastKnownName="JobExecuteException"
+              LastKnownLocation="Package_1432.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9e49babf-12ae-4fe2-969d-62710716d33a"
+            name="JobDLLNotFoundException"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="58af61d4-84ae-4af3-a8f3-82d7c990bef4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobDLLNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8664a52-a3b2-4a05-b752-508801103e44"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db37244d-aa9c-4e58-b07c-21d795840c1c">
+                    <propertyInstance
+                      Id="ce7dcf80-2091-4ca9-adc2-17924610d639"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3da42ae3-6f27-4699-af68-2ea91e6fce76">
+                    <propertyInstance
+                      Id="338dc067-8970-4ba7-a539-67246508679f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca025085-fbbe-4709-896b-454988ccc59b">
+                    <propertyInstance
+                      Id="f12303d3-c019-4ccd-8b5c-c450ab2a49ef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2147ecd4-ede6-4d17-94c3-182aeacd20e6">
+                    <propertyInstance
+                      Id="0cedc5f6-ae19-490d-99f2-6d448a3884d9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b8960e8-0b7f-46ce-a22d-37925b59d915">
+                    <propertyInstance
+                      Id="ef31fa59-05ef-4db9-8f08-91c0e5921666"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="993fd420-5169-44e3-b2f1-893f0898b419">
+                    <propertyInstance
+                      Id="2d60ac93-f303-4163-8105-03fff6ee1cb7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c1e8ed74-649f-41f6-9ecf-3b3373990c96"
+                  name="Message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="21ad4d3a-9fef-4b31-aa17-dbf4afb6f023"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobDLLNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DMessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ScheduleJobModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b54228f1-34b5-4837-baa4-840f0ac65822"
+                  name="InnerException"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3ddd012a-e47f-449b-a45e-8b9c403a9f24"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobDLLNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DInnerException"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e955a70f-04de-44c7-ac88-b1c85c56c41e"
+                      LastKnownName="Exception"
+                      LastKnownLocation="Package_1342.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="edfa7d5e-3521-4d24-8241-12d9ea9f032a"
+            name="JobDLLNotFoundException"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="61e76794-4702-4c38-8b6d-f5018e3a79c1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobDLLNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="de0e97c5-b92a-4ac1-b68c-88a3a2132612"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6991df8-b5fc-45d0-8465-daaf0b41a0a5">
+                    <propertyInstance
+                      Id="2030393f-a0d2-479c-9a80-3bce895242df"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d9aaa1f-f37a-48a4-9a38-aa54534ff07b">
+                    <propertyInstance
+                      Id="9b387866-d735-4d6f-a9ab-fb244b893199"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ea4f2b8-6254-4b31-a9b1-b2f9fc573036">
+                    <propertyInstance
+                      Id="3fd10847-ca9b-4d9e-be6a-29b6f6f9d286"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec15a638-c0b6-47ab-b5d5-44764d4740bf">
+                    <propertyInstance
+                      Id="41c8293d-32fc-4ad5-a624-a62bd57df3fc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a8dbbad-62a7-4ee1-9fb0-6c87305a475d">
+                    <propertyInstance
+                      Id="eeb78c02-900f-477c-9bd4-df66833bf39b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fff19b9a-a921-4a5f-a5a0-3760e130e93b">
+                    <propertyInstance
+                      Id="ee8f8dba-94b5-4925-85ea-a2129cdbeb68"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="90c19364-1e6e-490c-8351-ad828810795d"
+                  name="Message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="304804af-cb4a-4272-9838-7ef0763196c2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobDLLNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DMessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ScheduleJobModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eee77e33-197f-48c7-bb8a-0d545ce25a67"
+        name="JobMethodNotFoundException"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f78d1421-1dc0-438a-a37f-ec3d4e0ef49d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobMethodNotFoundException"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c2c21052-9435-4513-a97b-c77839cf5dad"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41549a9e-b73b-4464-b5dd-146d3dd16d47">
+                <propertyInstance
+                  Id="42d81455-8275-420d-b843-1a265bee0bf5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4961c2aa-57fa-4b63-8888-29549fa6d5d3">
+                <propertyInstance
+                  Id="3af849f9-4bd6-4984-a17b-d10ebe44fa80"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cba31d01-e046-4747-862c-fa3536b95f80">
+                <propertyInstance
+                  Id="c2d03312-a609-4476-be12-7c919045a844"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="32a87314-3fed-4ed9-a858-2067efb0bef6">
+                <propertyInstance
+                  Id="6b9fdc05-a86c-4c8f-a72f-e4e7d972b9d6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c869eb9d-c1d6-48c4-aaf1-8f7e39169079">
+                <propertyInstance
+                  Id="b9591f8f-ece3-427d-9307-15ea60cce3b7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="063c2d3f-7dc1-4801-9c4d-fe88df267c3b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="7195f9ec-026e-418f-88e6-9c6d73e01647"
+              LastKnownName="JobExecuteException"
+              LastKnownLocation="Package_1432.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0ac210ab-b5ae-48c6-9b6c-67017cf3240a"
+            name="JobMethodNotFoundException"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="43c7b16a-5985-47d7-86ce-50d94d026bae"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobMethodNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e134b58b-09dd-4719-9e23-171fd7ade920"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c62a7e8-b693-4972-a9b4-edd6341d2979">
+                    <propertyInstance
+                      Id="faaa1d5d-cf97-40fc-ac04-b4f7155c8c8e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa859e20-133b-4ba5-a285-7aa69a404f49">
+                    <propertyInstance
+                      Id="26cbe59d-76b3-49c1-aac8-98ab7b0703be"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="539e1424-6777-41ec-ba32-20038ee04790">
+                    <propertyInstance
+                      Id="503f1047-6e80-436b-a2db-5e5525603d54"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="322b70f2-da9c-4f1e-98f0-43a498cf515c">
+                    <propertyInstance
+                      Id="a64e68ba-368e-40ae-bdde-3c4bd1f734e5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cda9a5e7-83d4-48d8-ad8c-399c847b44e1">
+                    <propertyInstance
+                      Id="b40676e5-a935-4201-9643-d615df745f65"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbe45b54-f617-4ee7-adf6-2e95a4275ff8">
+                    <propertyInstance
+                      Id="026bca70-a543-46b7-9fc8-e4f017d64df8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="40f3ad4e-3eb2-4a0d-93a1-c9a8fdf7d7df"
+                  name="Message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f5dc41f4-4fd9-4eb3-b142-12347fdfb942"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobMethodNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DMessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ScheduleJobModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3cd419f9-0ee1-423c-8c16-901caf1798a0"
+                  name="InnerException"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3448649d-1165-4224-8140-186c6b051a4c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobMethodNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DInnerException"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e955a70f-04de-44c7-ac88-b1c85c56c41e"
+                      LastKnownName="Exception"
+                      LastKnownLocation="Package_1342.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ce79fa4a-1586-4d2f-a46f-2cdae733ba5c"
+            name="JobMethodNotFoundException"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="28885c55-21b1-4493-82bc-62934d0575f4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobMethodNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72aa938f-e575-4f3d-b84a-f72f4da8dc84"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85173817-0347-485a-b7ba-140b06aa3228">
+                    <propertyInstance
+                      Id="e383db7a-4bcc-4313-916f-2bb8d541849a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65191ca0-372b-4520-9a33-30aff143d60a">
+                    <propertyInstance
+                      Id="00de9d0b-e305-4840-8926-de1652dcad8c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a02aca2-e33d-4d47-9182-5bed4cffdcc3">
+                    <propertyInstance
+                      Id="4b53ee5f-d55c-4cb7-8a57-958a7a19c26a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c71896f9-37c9-4268-9b7b-5aab3b14d5cc">
+                    <propertyInstance
+                      Id="c9dc3250-72e0-41d2-a5de-13269bf61228"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d59c415-57bd-4c1c-9223-6ab03b85f4a9">
+                    <propertyInstance
+                      Id="28595673-437d-444d-87f2-9ba3598961fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="491789fa-7762-44b8-b8e6-39c642299bd3">
+                    <propertyInstance
+                      Id="09626316-e749-4ac4-831c-f60ddf700c38"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dd3e2fd3-440a-4048-a63a-839b33386e2a"
+                  name="Message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4aba6443-c651-4089-871d-1327b9ddc224"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DJobMethodNotFoundException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DMessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ScheduleJobModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="51bac7a4-cabd-4e78-a4fc-e34b4a314c84"
+        name="LoadAssemblyHelper"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c64aba77-d1f9-4152-9f6f-134998c69483"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="267d4c60-fd78-4c46-b7aa-0401c6e63db7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="53b77eb9-7519-4a40-93dd-a783e6df5c80">
+                <propertyInstance
+                  Id="b7715fb9-fdf9-4f58-86fe-13a6a7aa97c9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="277fa770-606a-40eb-9ce4-91263f229c78">
+                <propertyInstance
+                  Id="f68014a1-0614-4981-9afb-a544a0b3464c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="106e2377-aead-4d9b-b3b0-fb8586d63a5a">
+                <propertyInstance
+                  Id="f474d4c3-bb6e-4e8a-ac7e-ba8bbde6fcb0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0654e9f-2e94-469a-8da6-f69b15eabbc9">
+                <propertyInstance
+                  Id="64598abb-717e-42da-807f-b32637f7e41b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d516042a-c921-433b-a034-9842617db3a6">
+                <propertyInstance
+                  Id="57bb689f-acae-4bea-bd59-8734601eb8a9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="b1a87c5f-4bbf-42b5-8976-b93ca7580748"
+            name="JOB_METHOD_NAME"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c741f692-451d-4c60-883f-165a458b2e07"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3DJOB_METHOD_NAME"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a44150a4-e911-4bc6-956f-4e358e2b8782"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d22b442-8236-4353-ad60-2ad439a59674">
+                    <propertyInstance
+                      Id="77090dac-a692-4f29-9cb5-29805c0b87fc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93cafaae-9e12-410c-ae83-464ccd7d3147">
+                    <propertyInstance
+                      Id="fcd6ff08-cac0-49fe-89d7-dd26c7439129"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cbf7f60-b09d-4712-ba0e-9e1ae9b86a86">
+                    <propertyInstance
+                      Id="be8bc35c-8297-460b-9e93-d8f2ca481279"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="218a7e10-a826-418f-b431-0bdca3090279">
+                    <propertyInstance
+                      Id="bc360de0-85eb-4d93-aef0-6a4111f29ed4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ab6d030-e226-4f91-a514-58a74c5cd2f7">
+                    <propertyInstance
+                      Id="45140b07-0510-4e71-a8b9-63180d2cc9e2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="60795aa1-279f-4f53-833c-93c0ce88a98d"
+            name="BEFORE_PREPARE_METHOD_NAME"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d782b3ca-0766-4321-b233-c91e5afbd2fb"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3DBEFORE_PREPARE_METHOD_NAME"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f2d31849-78da-4954-9032-f15d7c00d271"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d5de685-302a-4c18-b1a8-1c3a7d5a2e79">
+                    <propertyInstance
+                      Id="3bd436bc-4a7d-41c6-b304-e55bceb71946"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d5e9811-e2fa-4d2a-8e47-59c2501d69d4">
+                    <propertyInstance
+                      Id="f0aa219c-333f-4a99-b364-b1430eec04b3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53afb044-59c2-48cb-8879-5201875f5ae8">
+                    <propertyInstance
+                      Id="2557d45b-7e05-4cd1-9f1c-01b911410fc7"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57eb8e52-2002-4dc0-a868-8881dba31712">
+                    <propertyInstance
+                      Id="c7c5d3a4-1a75-4545-8894-9924675fe84c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09545c5c-3fbe-4657-b9c2-8cc77fbd636b">
+                    <propertyInstance
+                      Id="4bfe4e43-e1ac-47a2-a654-67d0b8d64e37"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="a3b503c8-5639-4f92-a178-877055e16a0c"
+            name="PREPARE_DATA_METHOD_NAME"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c9d19932-ed46-4ee2-8a8e-a53f31681935"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3DPREPARE_DATA_METHOD_NAME"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d01e03e-91d7-414a-8f1f-7908bdb13096"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="113d48a2-b143-4590-8dab-79d8ec4d015f">
+                    <propertyInstance
+                      Id="128d1b8a-802d-4985-9e0e-a1d564e4e4a0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68dc7d8d-1594-4517-86ce-92dcc9d5a94a">
+                    <propertyInstance
+                      Id="1cc0c924-6791-4382-9221-bd440e3ec1ec"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06853408-77b7-42f9-a036-571cd9d40210">
+                    <propertyInstance
+                      Id="01165da0-43fa-4caa-bf9b-b54fd7e99f62"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7916fd4c-6979-4e31-8096-f89611b3eee8">
+                    <propertyInstance
+                      Id="055dc7f5-7af4-455f-8e24-acd32cefb9b3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84098be5-35bc-4af3-8d61-965b129cd9c1">
+                    <propertyInstance
+                      Id="e452e134-144b-4b29-9008-dcb04c7b57f5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="f23fa735-a68e-44c6-a9a1-4af9ce119d71"
+            name="PROCESS_DATA_METHOD_NAME"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d7b50bf4-7069-4f4c-98f7-7896be142e44"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3DPROCESS_DATA_METHOD_NAME"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2322f6b6-d255-44fe-9507-9b4aa383aad0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e4bf408-f3b8-45cd-bea0-334fa6d11940">
+                    <propertyInstance
+                      Id="e90398eb-7ce9-4af0-a856-83c5392c268e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d460afc7-d4db-462f-ba2d-7445f64ef506">
+                    <propertyInstance
+                      Id="90444f33-3c03-48fa-b63c-dc71ab33c45a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da32b491-2b63-4dbf-9992-155b24637d00">
+                    <propertyInstance
+                      Id="ae93d038-f888-42a6-9c7d-934036bfe8ed"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="332a2e28-7002-4da5-b47c-8a89204db327">
+                    <propertyInstance
+                      Id="3f3d4961-c000-4375-a543-e97588ac2553"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b98776c-4d14-41f7-86ac-195f45ebe5c4">
+                    <propertyInstance
+                      Id="98ee070f-98de-4f7b-9e96-a95407603ed8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="ef01d607-28ae-4280-8ae2-359efec78bbd"
+            name="AFTER_PROCESS_METHOD_NAME"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7080b440-faa4-47bc-a4c2-3dc9c5795f69"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3DAFTER_PROCESS_METHOD_NAME"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1f816545-781a-490a-8f79-83f3f25d7c41"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="388c9f86-0957-482e-b609-13e37114924a">
+                    <propertyInstance
+                      Id="6d88736c-7807-4521-b008-252dcfc6dc72"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50b92213-6520-410b-9b78-74873c854f02">
+                    <propertyInstance
+                      Id="9e89966c-dbef-4fa2-a944-d45b320df0e0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be87b98b-dd4f-4079-9c1e-9b9f1b5e7b54">
+                    <propertyInstance
+                      Id="3615bd81-9639-4423-b4c9-787513e2ed2f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbfa70d0-b84b-4b77-abc6-e8d2c2c7540e">
+                    <propertyInstance
+                      Id="457628ae-419f-4ecc-993a-d85c016d9f07"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cacf6a4-5b36-43ca-82fb-021870250aa2">
+                    <propertyInstance
+                      Id="8fd6427d-5996-4df5-bb14-6d5a0b4d140e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="c97ae668-1479-4f94-bca6-27e0181e3890"
+            name="dllPath"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="253f1936-a3dc-4122-a9ee-c3249784a6c9"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3DdllPath"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="093d996a-38db-49a6-a81b-8f61287fbcbb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f641d2f1-500a-4e57-89ae-09f0d85338de">
+                    <propertyInstance
+                      Id="caf833b4-eba8-4fd0-8ca6-d23a56c9b733"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1906a5fb-e8d1-457d-9503-7d9306f55aec">
+                    <propertyInstance
+                      Id="9f52267c-8e1c-4e63-842e-f019e543671d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="328e63ae-dede-4e33-bc25-86da9b14b2db">
+                    <propertyInstance
+                      Id="48467601-cc21-4d5e-ae9b-f469ddc15f99"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f157354-98dd-4838-a1d2-3423b92b61ba">
+                    <propertyInstance
+                      Id="74e34fdb-cfb3-416d-a76a-eab3d3ef3ee9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5518fbbb-aa16-416e-8459-af181eeecec0">
+                    <propertyInstance
+                      Id="9f405ec9-1130-4bfa-be62-61afe09188fb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ScheduleJobModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e44ea1c7-b62f-43cd-ba7d-64dc9e63a63e"
+            name="Common"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4fc20144-5e29-48a8-8169-797ab6807151"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3D(Name%3DCommon OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Reflection Type%3DAssembly)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Store%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Store.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Store Type%3DJobData)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="76e19da8-33eb-4b6d-9034-bf06e74fd28c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ee83a1d-a322-44e7-b8ab-feb946d2fc9e">
+                    <propertyInstance
+                      Id="deb66d5d-01cd-493a-8fd1-69d73fe28f0d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48649d10-fed9-4ea1-ba32-54d9d82aacc0">
+                    <propertyInstance
+                      Id="10281688-6dc4-4a13-8c38-afaa2940ae5a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="200ac54a-7511-4e51-9451-aa38dae75b69">
+                    <propertyInstance
+                      Id="40004f22-3a1c-41d6-9294-2a0061100d07"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22051a37-4351-4ad0-a88e-dfc8bdd392f2">
+                    <propertyInstance
+                      Id="21741364-113a-454a-b0a5-55209a1762c5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f7a02d8-6c37-415b-bb49-6ea968ca15af">
+                    <propertyInstance
+                      Id="bbd56c4e-14de-44f9-8a3f-9d00236f83ed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db96fcff-9e2d-4e64-a367-c88fcb9650a9">
+                    <propertyInstance
+                      Id="4bde8828-04ac-4f7d-ba0a-dcecb18a4c68"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a9ec1887-3fe5-49b0-8d85-c89589863869"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d4029504-7968-4d0c-8044-20e437b60ee1"
+                      LastKnownName="Tuple&lt;MethodInfo‎, Object‎, LogAttributeData‎&lt;WriteLogAttribute‎&gt;‎, LogAttributeData‎&lt;WriteExceptionLogAttribute‎&gt;‎, LogAttributeData‎&lt;ErrorLevelAttribute‎&gt;‎&gt;"
+                      LastKnownLocation="Package_1342.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1f7008bf-708d-419f-9812-6b77d0d97fa0"
+                  name="ass"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fea13a50-7fec-4b06-8d55-194f597ef099"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3D(Name%3DCommon OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Reflection Type%3DAssembly)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Store%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Store.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Store Type%3DJobData)]) ParameterIdentifier%3Dass"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c6e1bcd9-89c5-4ef2-a659-d9bbddf37629"
+                      LastKnownName="Assembly"
+                      LastKnownLocation="Package_1349.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="00709392-867b-42bd-abde-8c2827456c78"
+                  name="Job"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cb8f80a6-97ce-422f-adad-c1ba83785d93"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3D(Name%3DCommon OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Reflection Type%3DAssembly)%2C(Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Store%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Store.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Store Type%3DJobData)]) ParameterIdentifier%3DJob"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="02fb5d70-30b1-4578-ac06-65b76c995485"
+                      LastKnownName="JobData"
+                      LastKnownLocation="Package1_1342.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="66357d5e-efd2-4e23-a7b1-aef25063d034"
+            name="GetExecuteJobMethod"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="99912745-1072-4c7a-a19d-7344c4e3a089"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3D(Name%3DGetExecuteJobMethod OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Store%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Store.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Store Type%3DJobData)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9fca570a-5010-473a-85d6-aaaeb56875df"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ea4e0ce-da51-4126-8664-57d2a7ac1076">
+                    <propertyInstance
+                      Id="13cd3420-c2de-4174-9839-4bc5b4f3e780"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c64b4ae-d0a0-4d2e-87c7-356060ef5515">
+                    <propertyInstance
+                      Id="2781053d-5589-4e02-96c1-05fbdc50c43a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76e94903-b0c5-4f21-98cd-38fbe4870e40">
+                    <propertyInstance
+                      Id="e1f77409-8dbc-49a7-97d2-a9304cec54e3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87453c2b-283d-413a-be86-cdda3696b61d">
+                    <propertyInstance
+                      Id="eb4fb940-605c-49cc-aeb5-672041c4c631"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7002b5b-b4b7-43ec-8d69-2b01f6f2a9ba">
+                    <propertyInstance
+                      Id="07985517-7351-44bc-aafb-7a725d4ab18b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67cbd8dd-7279-4cd9-ae4e-a03283812cd6">
+                    <propertyInstance
+                      Id="f1a27f13-59b8-4c18-9d14-bf221e63214e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="244e8323-93d3-4fd4-bd74-09cd928e44cd"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d4029504-7968-4d0c-8044-20e437b60ee1"
+                      LastKnownName="Tuple&lt;MethodInfo‎, Object‎, LogAttributeData‎&lt;WriteLogAttribute‎&gt;‎, LogAttributeData‎&lt;WriteExceptionLogAttribute‎&gt;‎, LogAttributeData‎&lt;ErrorLevelAttribute‎&gt;‎&gt;"
+                      LastKnownLocation="Package_1342.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5320c675-e64e-4a87-8767-1bfff0b6f8d5"
+                  name="Job"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9e1b6cd3-5ffe-4115-8718-a547d5ac5267"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3D(Name%3DGetExecuteJobMethod OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Store%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Store.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Store Type%3DJobData)]) ParameterIdentifier%3DJob"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="02fb5d70-30b1-4578-ac06-65b76c995485"
+                      LastKnownName="JobData"
+                      LastKnownLocation="Package1_1342.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e5418b1b-4d0c-41a4-92e8-e1e77b7905f7"
+            name="LoadAssemblyHelper"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f5320cc6-d121-4640-9173-9e21352a3070"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2FMxic.Framework.ScheduleJob.Core%2Fbin%2FDebug%2FMxic.Framework.ScheduleJob.Core.dll&quot; Namespace%3DMxic.Framework.ScheduleJob.Core Type%3DLoadAssemblyHelper Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="306578a4-c60c-4717-a5b5-0e0353469fd3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e8aa5c7-bc32-4236-8413-77860cfb76ab">
+                    <propertyInstance
+                      Id="4a55a52a-3b2e-492f-a325-6dfc3935c80a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80d970db-814e-40ac-8a2d-b88e64672229">
+                    <propertyInstance
+                      Id="deea6049-1e7e-4b5a-b1c8-6779635bf8ca"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66bbfdb3-c29b-482b-98e2-51789ad68bc2">
+                    <propertyInstance
+                      Id="4946bde7-6403-4783-b853-c080e0b53baa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68bcc3e4-ef89-4d01-bd4e-da14b41f6304">
+                    <propertyInstance
+                      Id="1929e11d-be43-412a-9bc5-fb1c8d4618c6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="697bd041-236a-4a97-bc55-6705f6caab22">
+                    <propertyInstance
+                      Id="55520809-d778-449f-8381-f6e97738668a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8531dd6-6e24-489e-a4ca-eb8c178bf48f">
+                    <propertyInstance
+                      Id="1acf470d-e81c-4c2d-b0c8-3677a7aeafef"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

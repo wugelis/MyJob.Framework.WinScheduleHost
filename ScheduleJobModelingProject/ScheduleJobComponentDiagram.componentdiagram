@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="8794df40-d0f3-4be9-96b9-893fc6fc6c36" name="ScheduleJobComponentDiagram" linkedPackageId="4037ca05-a900-4a49-a2db-16972c1e3422" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <ownedCommentsInternal>
+    <comment Id="e6bfa783-40f6-4bbd-9ff2-9464553fca57">
+      <elementDefinition Id="f689ee71-0069-42c7-be40-257ffd630bbb" />
+      <body>Schedule Job UI
+編輯器</body>
+      <annotatedElements>
+        <componentMoniker Id="cb214e83-3321-4ef5-9264-756918521d30" LastKnownName="Mxic.Framework.WinScheduleUI" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="8d84b386-a582-47c8-a60f-0a918fba7bad">
+      <profileInstance Id="c654144e-2fc9-4698-8020-99240600b1b9" name="CSharpProfile">
+        <elementDefinition Id="e0c72e18-3ce4-4a0a-92c2-ae72d5a409d1" />
+      </profileInstance>
+      <elementDefinition Id="0b04fd18-a303-4946-b961-589ad06e6a34" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="bc48b1ac-4148-4962-bdc6-eb26c6b0c8a8" name="Mxic.Framework.ScheduleHostServices" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="66568da5-539b-411d-88e2-0667a228b3a9" />
+        <suppliersInternal>
+          <dependency Id="bf23751d-a9c8-49a0-a790-006b6411aa42">
+            <componentMoniker Id="d8346541-a794-41b0-8e21-70673e29efa5" LastKnownName="Mxic.Framework.ScheduleJob.Engine" />
+            <elementDefinition Id="dbde63ba-e34d-415d-9b5c-0412466b0637" />
+          </dependency>
+          <dependency Id="4c153566-9c87-464b-ad39-fd4330430340">
+            <componentMoniker Id="954f9aea-0246-430c-9c3d-7f9ca555442a" LastKnownName="Mxic.Framework.ScheduleJob.Store" />
+            <elementDefinition Id="eca5a677-ff9b-49ba-9161-5778134acf1b" />
+          </dependency>
+          <dependency Id="39125c31-06f9-436c-af0e-22ab428d5901">
+            <componentMoniker Id="38026ac5-c52f-4efa-905b-afb8faecf2fe" LastKnownName="Mxic.Framework.ScheduleJob.Core" />
+            <elementDefinition Id="7f32c0d8-e10c-4f19-ba7d-70d7eeec10de" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="d8346541-a794-41b0-8e21-70673e29efa5" name="Mxic.Framework.ScheduleJob.Engine" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="27785d39-0449-45b9-9cba-2a8baf6fbc1c" />
+        <suppliersInternal>
+          <dependency Id="f23abc9a-6f89-42be-8220-5f8d049402ab">
+            <componentMoniker Id="954f9aea-0246-430c-9c3d-7f9ca555442a" LastKnownName="Mxic.Framework.ScheduleJob.Store" />
+            <elementDefinition Id="d3dba2b6-71f5-42bd-868e-d1a0b3c10bf1" />
+          </dependency>
+          <dependency Id="bb1446b4-6340-4339-8eed-2c975ce4dc34">
+            <componentMoniker Id="38026ac5-c52f-4efa-905b-afb8faecf2fe" LastKnownName="Mxic.Framework.ScheduleJob.Core" />
+            <elementDefinition Id="057c9068-41ce-4a35-9f0a-e151378f258b" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="954f9aea-0246-430c-9c3d-7f9ca555442a" name="Mxic.Framework.ScheduleJob.Store" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="052208db-7132-40cd-89f1-2206b0153d0f" />
+        <suppliersInternal>
+          <dependency Id="4b53969d-c8b7-4e7d-a6c2-8d855fdfb0ff">
+            <componentMoniker Id="b0118b3d-280a-4221-9862-68cd235feab7" LastKnownName="GelisFrameworks" />
+            <elementDefinition Id="190fbcc0-6352-4b50-93a1-fef38d705b79" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="38026ac5-c52f-4efa-905b-afb8faecf2fe" name="Mxic.Framework.ScheduleJob.Core" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2799bd94-aa7d-42cd-8a33-4a287ba14109" />
+        <suppliersInternal>
+          <dependency Id="63807ec1-0bdc-4275-b286-402e72e04ea1">
+            <componentMoniker Id="954f9aea-0246-430c-9c3d-7f9ca555442a" LastKnownName="Mxic.Framework.ScheduleJob.Store" />
+            <elementDefinition Id="913110bc-dd32-44b1-be64-73332be1c379" />
+          </dependency>
+          <dependency Id="d04d84cd-f32e-47bb-98e2-9525445d655d">
+            <componentMoniker Id="ac067f54-4c41-41a7-a92d-c586a3ae6a4e" LastKnownName="Mxic.Framework.ScheduleJobBase" />
+            <elementDefinition Id="7d87425c-6de7-4a53-ab3c-faa59293a86c" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b0118b3d-280a-4221-9862-68cd235feab7" name="GelisFrameworks" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8e30f783-b574-42e9-be4c-6322f85662c3" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ac067f54-4c41-41a7-a92d-c586a3ae6a4e" name="Mxic.Framework.ScheduleJobBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8f89ce54-a010-4058-83b9-db582214107d" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="cb214e83-3321-4ef5-9264-756918521d30" name="Mxic.Framework.WinScheduleUI" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8c39c3af-3703-45db-903d-bd35cc0f7508" />
+        <suppliersInternal>
+          <dependency Id="2a149868-376e-4539-8f11-1553ee857223">
+            <componentMoniker Id="954f9aea-0246-430c-9c3d-7f9ca555442a" LastKnownName="Mxic.Framework.ScheduleJob.Store" />
+            <elementDefinition Id="b88d5cae-a746-4861-ab09-aff0db8ca7e7" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="a2703861-8a1b-43c0-8dba-480b465b5c86" name="Mxic.Framework.ServerComponent" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a3f351f0-0a90-446b-b038-e8a034c0d437" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="856fcc37-4061-4381-b81b-7e685f78ea94" name="Job DLL" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="96383e60-5266-4a4d-8fbe-d9e598bcf227" />
+        <suppliersInternal>
+          <dependency Id="b667b1bc-d7ad-4879-8e6c-48ee20aca9ec">
+            <componentMoniker Id="a2703861-8a1b-43c0-8dba-480b465b5c86" LastKnownName="Mxic.Framework.ServerComponent" />
+            <elementDefinition Id="607064d4-43bf-4bae-bc50-c2cfc11a9416" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="2d199f18-5343-4e6f-b984-bd65ae191b30" isSubstitutable="false">
+            <componentMoniker Id="ac067f54-4c41-41a7-a92d-c586a3ae6a4e" LastKnownName="Mxic.Framework.ScheduleJobBase" />
+            <elementDefinition Id="fd17ae50-9057-4743-8ab9-dd145be0d124" />
+          </generalization>
+        </generalsInternal>
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="4037ca05-a900-4a49-a2db-16972c1e3422" name="ScheduleJobModelingProject">
+    <elementDefinition Id="6258ee25-59bc-474a-8139-81901c213c83" />
+    <profileInstances>
+      <packageHasProfileInstances Id="85112516-7ebd-4e5b-be3a-3dd125076a61">
+        <profileInstance Id="b3fc0607-ae6a-4bae-b72b-6a9e6270d3ac" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ec725a83-977c-4004-bca3-589e00f8507f">
+        <profileInstance Id="7a765ec1-664c-40b5-a5af-bd61fe998cd9" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>

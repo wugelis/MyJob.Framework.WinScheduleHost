@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3888413e-2e60-42f5-b964-b2469f2d3b88" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9001/ScheduleJobService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ScheduleJobService.xsd" MetadataType="Schema" ID="6696bfeb-a929-4535-9508-acbadff472f6" SourceId="1" SourceUrl="http://localhost:9001/ScheduleJobService?xsd=xsd1" />
+    <MetadataFile FileName="ScheduleJobService.disco" MetadataType="Disco" ID="e4fe77f0-153d-4f07-8b49-3321a3bd4204" SourceId="1" SourceUrl="http://localhost:9001/ScheduleJobService?disco" />
+    <MetadataFile FileName="ScheduleJobService1.xsd" MetadataType="Schema" ID="199bf061-c8b8-49bc-b6b8-21965a448a7c" SourceId="1" SourceUrl="http://localhost:9001/ScheduleJobService?xsd=xsd2" />
+    <MetadataFile FileName="ScheduleJobWcfService.wsdl" MetadataType="Wsdl" ID="bde14b87-4f84-4388-a674-3184e30307c8" SourceId="1" SourceUrl="http://localhost:9001/ScheduleJobService?wsdl" />
+    <MetadataFile FileName="ScheduleJobService2.xsd" MetadataType="Schema" ID="b5fdbc0f-e20a-4748-9084-4c38e6420e79" SourceId="1" SourceUrl="http://localhost:9001/ScheduleJobService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

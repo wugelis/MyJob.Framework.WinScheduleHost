@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="efe32704-9bbc-442f-b197-4e44d6b33770"
+  name="ServiceProcess"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="272b90c7-7e9c-41b5-83ce-8b8b5c919101"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.ServiceProcess"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="3eee5880-a2f9-4d7b-98f8-832d35abc04d"
+        name="ServiceBase"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e220610a-5a50-4e30-94e4-81a60ee7b2a9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.ServiceProcess.dll&quot; Namespace%3DSystem.ServiceProcess Type%3DServiceBase"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9fa2ca48-9f75-46f3-86a8-ae70eb75f538"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d5651a7-bdd9-4a45-a9a8-5c6c37073ad5">
+                <propertyInstance
+                  Id="3bc08ee8-0ac3-4cb4-81aa-acb3526b7340"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e04eb0f0-62f8-4114-b44b-4458ceae18d3">
+                <propertyInstance
+                  Id="649cad27-48cb-4bb2-bc7e-dba77b2c8a7f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89d5f3c2-a4c3-4d8a-b356-8930150fe000">
+                <propertyInstance
+                  Id="aaf7cad9-2b67-4fd8-8907-60dcbcb90389"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa683380-d98c-4559-bd24-849d91e5567f">
+                <propertyInstance
+                  Id="d70a2115-d7a3-4bb6-9ee5-23789891f96e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1345411-8fd7-47d1-874b-1e3190c7234e">
+                <propertyInstance
+                  Id="34c2aa14-dbb4-4996-bab9-9e47e29dccee"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6e53b1de-4418-4665-a75c-c0fa6bcf5ea2"
+        name="ServiceInstaller"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9002a72d-21cf-449c-a062-227d17b0a18f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.ServiceProcess.dll&quot; Namespace%3DSystem.ServiceProcess Type%3DServiceInstaller"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f415a898-144d-46b4-ad0e-0d48320684e2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e862020-2f8f-4e5d-98f8-4659953dacbb">
+                <propertyInstance
+                  Id="881d2d0e-9695-4e6f-89f9-effc9866e3fe"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="380e78cb-ac4e-4903-9694-cb5cf232e260">
+                <propertyInstance
+                  Id="2bda6c3b-515e-4697-ab25-9b25a061021a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26d94b64-9ed6-4f61-9ce4-0781dd0cb8ad">
+                <propertyInstance
+                  Id="c76cf1d6-3938-4d7b-809a-94592bb64616"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36b6b117-e9ae-4574-97ec-7e20c01d99c9">
+                <propertyInstance
+                  Id="6fd54207-6718-4954-a3bd-9c02121716a5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c43c0de-d364-4d16-8ff7-ea45e1afbff5">
+                <propertyInstance
+                  Id="7c384cc6-ac24-40e3-82ce-ef6e0839a89d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="25dad943-2a23-484f-ae55-22e003146850"
+        name="ServiceProcessInstaller"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="03b24fd4-7143-4032-83c4-f46c49d161c1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.ServiceProcess.dll&quot; Namespace%3DSystem.ServiceProcess Type%3DServiceProcessInstaller"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="60f10663-70cd-45d8-8bf1-749ba2b52664"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc6d503d-ea3a-4b3d-b41e-ef5823870f98">
+                <propertyInstance
+                  Id="6929dbb0-2e35-4056-9beb-988a5834e5ac"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8fe43cf3-883c-4c27-83c0-28dc037115be">
+                <propertyInstance
+                  Id="1d5c0da7-b590-4a53-ad52-e56d54e89b65"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="513585ba-f72e-426b-a064-1d3ff845ce29">
+                <propertyInstance
+                  Id="17fe9ea1-a76a-4bac-b01c-554924758b00"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d631baaf-50e8-44ee-8065-010300901e21">
+                <propertyInstance
+                  Id="f216a02b-e395-4710-8f3a-0f58c950e8a6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="104469e9-1282-4fa1-be72-065bf361f9ee">
+                <propertyInstance
+                  Id="a8cb5208-f7c2-4ee9-9257-0fb385f1cfbd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

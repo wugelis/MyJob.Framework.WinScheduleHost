@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="8744a989-72d5-45e4-b561-b99c6f26fce1" name="frmScheduleJobUI_btnStartNewJob_Click" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="1fae4e79-84c6-4b17-ba2e-679926b1109b" name="frmScheduleJobUI_btnStartNewJob_Click" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="b527017a-51aa-4375-a791-ab1182fe3e3d" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="9a582709-9ebb-4c33-99e1-fd65147638e6" LastKnownName="this : frmScheduleJobUI" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="4a670b05-7481-4db5-bd1a-97dd33de2bbf" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="47f94e80-55da-4459-9ca0-5a5650ac096f" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="d8dedee0-dfbf-418c-9ab6-b33ac9ff70e5" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="135555ee-8366-476b-b208-60a1cdd7782d" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="7070d37d-598c-46f7-822e-598221998a97" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f9803335-8cb0-4317-be5c-38e52a9167c3" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="a1922d30-4fae-438c-9452-59c6a63158a4" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="47f94e80-55da-4459-9ca0-5a5650ac096f" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="8077b45f-9cf3-4720-84c5-d84b30bbdd31" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9a582709-9ebb-4c33-99e1-fd65147638e6" LastKnownName="this : frmScheduleJobUI" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="7669ac98-6e9d-4455-b730-09efe4de481f" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="d8dedee0-dfbf-418c-9ab6-b33ac9ff70e5" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9a582709-9ebb-4c33-99e1-fd65147638e6" LastKnownName="this : frmScheduleJobUI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="6afdfb31-b482-453c-ac18-9bcac1610fc4" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="75aeb0e5-2dcc-433a-bc51-a2848ccf7117" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="3a684c65-6697-411b-8494-43b1db8804cc" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e3d2e658-d43d-4014-936e-c3421798942c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="ad85d66c-aceb-41db-bf7f-68ccc51490d7" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="17273a52-c1ba-42b2-8464-4f991101e4da" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="0c3a6fa7-edc7-4753-80c3-41893b2354d6" LastKnownName="ExecutionOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="8e0e4082-0f1f-4b3a-a1c1-149a8493038d" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="3a684c65-6697-411b-8494-43b1db8804cc" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="63f0570a-1a64-4f4b-a241-0b6351941421" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="135555ee-8366-476b-b208-60a1cdd7782d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9a582709-9ebb-4c33-99e1-fd65147638e6" LastKnownName="this : frmScheduleJobUI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e3d2e658-d43d-4014-936e-c3421798942c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ad85d66c-aceb-41db-bf7f-68ccc51490d7" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="f5ba94b2-9a95-4996-ac1e-ccf9fa4e8ca2" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="0c3a6fa7-edc7-4753-80c3-41893b2354d6" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="17273a52-c1ba-42b2-8464-4f991101e4da" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="0432abbd-6f23-4ff5-9598-5ac8159d6358" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="17273a52-c1ba-42b2-8464-4f991101e4da" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="0d5a31ab-8812-4b7e-aeea-f9f5b4933037" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="0432abbd-6f23-4ff5-9598-5ac8159d6358" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="0c3a6fa7-edc7-4753-80c3-41893b2354d6" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="d9bbd21a-44c6-4cdb-bb2a-a0aee4174d15" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8e0e4082-0f1f-4b3a-a1c1-149a8493038d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="7070d37d-598c-46f7-822e-598221998a97" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9a582709-9ebb-4c33-99e1-fd65147638e6" LastKnownName="this : frmScheduleJobUI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="75aeb0e5-2dcc-433a-bc51-a2848ccf7117" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a60ea2f7-03c7-4bfe-86d3-4f5c831ad802" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="fcfc9126-fd3d-4ddb-8383-ad2dec682686" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="eb7609ee-ffdf-41e2-ba61-6df465e9ba3d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="9372c0cc-56f2-4e0e-b500-247a0746f972" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="4cab6651-70fc-49c9-8208-290981a65329" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="937aef7c-a74e-4e6b-bca6-d83bba427790" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="5806d4ab-b6db-4e77-a79d-1cd830f7a46b" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6cdf3cf1-0b6c-4676-86a4-ff0ce1331fe2" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="9372c0cc-56f2-4e0e-b500-247a0746f972" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e9b36211-897f-467e-ba75-099c25259f46" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f9803335-8cb0-4317-be5c-38e52a9167c3" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9a582709-9ebb-4c33-99e1-fd65147638e6" LastKnownName="this : frmScheduleJobUI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4cab6651-70fc-49c9-8208-290981a65329" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="92442788-a46d-4edb-8929-32b969a014d7" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="27eeb0d9-73e9-4523-ab80-894b3354d8ab" LastKnownName="Channel : IScheduleJobService" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="590b3bf6-6a9c-45d8-84bb-25ca898cddb0" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="b56b9d45-8bf4-4181-904d-e5704ab4dc89" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="1596addf-e297-4030-8f59-41b31d01634c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="094446a1-fbde-44ff-b9af-ce2c457f742e" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="b56b9d45-8bf4-4181-904d-e5704ab4dc89" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ba442e3a-21fe-4766-96cc-3865511726d6" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="27eeb0d9-73e9-4523-ab80-894b3354d8ab" LastKnownName="Channel : IScheduleJobService" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="937aef7c-a74e-4e6b-bca6-d83bba427790" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1596addf-e297-4030-8f59-41b31d01634c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="27eeb0d9-73e9-4523-ab80-894b3354d8ab" LastKnownName="Channel : IScheduleJobService" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="094446a1-fbde-44ff-b9af-ce2c457f742e" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="27eeb0d9-73e9-4523-ab80-894b3354d8ab" LastKnownName="Channel : IScheduleJobService" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5806d4ab-b6db-4e77-a79d-1cd830f7a46b" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="590b3bf6-6a9c-45d8-84bb-25ca898cddb0" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="c6d9ba94-b3f7-4680-9306-0dbee2a546b1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="27eeb0d9-73e9-4523-ab80-894b3354d8ab" LastKnownName="Channel : IScheduleJobService" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6cdf3cf1-0b6c-4676-86a4-ff0ce1331fe2" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a1922d30-4fae-438c-9452-59c6a63158a4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9a582709-9ebb-4c33-99e1-fd65147638e6" LastKnownName="this : frmScheduleJobUI" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="eb7609ee-ffdf-41e2-ba61-6df465e9ba3d" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="18087ced-dc45-4f15-afe9-8b29698b580c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="92c82800-c4d3-42b5-a48d-781d74c22b90" LastKnownName="context : ScheduleJobServiceClient" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="4a670b05-7481-4db5-bd1a-97dd33de2bbf" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="198ffdf2-6227-4f28-be8b-f020ac8f6416" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9a582709-9ebb-4c33-99e1-fd65147638e6" LastKnownName="this : frmScheduleJobUI" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="9a582709-9ebb-4c33-99e1-fd65147638e6" name="this : frmScheduleJobUI" isActor="false" lifelineDisplayName="this : frmScheduleJobUI" referencedInstance="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI Type=frmScheduleJobUI ObjectInstance=&quot;Object instance 3&quot;)" referencedType="Mxic‎.Framework‎.WinScheduleUI‎.frmScheduleJobUI">
+            <referencesInternal>
+              <reference Id="77c20c23-2a38-4ec8-a960-aeb99d8b226f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Mxic.Framework.WinScheduleUI)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI Type=frmScheduleJobUI)&quot;)" tag="DGQL" />
+              <reference Id="2f0dee87-310b-4a91-8d57-a8574c2f4443" handle="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI Type=frmScheduleJobUI)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="47f94e80-55da-4459-9ca0-5a5650ac096f" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="4a670b05-7481-4db5-bd1a-97dd33de2bbf" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="92c82800-c4d3-42b5-a48d-781d74c22b90" name="context : ScheduleJobServiceClient" isActor="false" lifelineDisplayName="context : ScheduleJobServiceClient" referencedInstance="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient ObjectInstance=&quot;Object instance 10&quot;)" referencedType="Mxic‎.Framework‎.WinScheduleUI‎.ScheduleJobServices‎.ScheduleJobServiceClient">
+            <referencesInternal>
+              <reference Id="ae7cc3c2-2557-45da-8e66-2e8311466dc1" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient)&quot;)" tag="DGQL" />
+              <reference Id="5c9ae726-e042-43b8-8e32-df1e7ad34251" handle="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="3a684c65-6697-411b-8494-43b1db8804cc" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="75aeb0e5-2dcc-433a-bc51-a2848ccf7117" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="9372c0cc-56f2-4e0e-b500-247a0746f972" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="eb7609ee-ffdf-41e2-ba61-6df465e9ba3d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="27eeb0d9-73e9-4523-ab80-894b3354d8ab" name="Channel : IScheduleJobService" isActor="false" lifelineDisplayName="Channel : IScheduleJobService" referencedInstance="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient Member=(Name=StartNewScheduleJob OverloadingParameters=[(Assembly=&quot;$(4fe0e3ab-21f9-4d94-bd23-bf1e83383106.OutputPathUri)&quot; Namespace=Mxic.Framework.ScheduleJob.Store Type=JobData)]) Statement=[1,1,2] ObjectInstance=&quot;Object instance 13&quot;)" referencedType="Mxic‎.Framework‎.WinScheduleUI‎.ScheduleJobServices‎.IScheduleJobService">
+            <referencesInternal>
+              <reference Id="0e792153-9819-48af-91a4-2a741cc22459" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=IScheduleJobService)&quot;)" tag="DGQL" />
+              <reference Id="7749b9f8-98c0-4541-a4bf-b66c2a9defdd" handle="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=IScheduleJobService)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="b56b9d45-8bf4-4181-904d-e5704ab4dc89" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="590b3bf6-6a9c-45d8-84bb-25ca898cddb0" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="751e3343-1497-4998-845b-d05f28ab3ddb" name="btnStartNewJob_Click" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="5626e8f2-91de-481b-803e-c06b411b6696" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Mxic.Framework.WinScheduleUI)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI Type=frmScheduleJobUI)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI Type=frmScheduleJobUI Member=(Name=btnStartNewJob_Click OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="11bc445c-11d3-45ec-aa77-e89e491f6183" handle="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI Type=frmScheduleJobUI Member=(Name=btnStartNewJob_Click OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="7669ac98-6e9d-4455-b730-09efe4de481f" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d8dedee0-dfbf-418c-9ab6-b33ac9ff70e5" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="98206e59-1470-4a61-a75e-a922713e9bcc" name="建立 ScheduleJobServiceClient" messageKind="Complete" messageSort="CreateMessage" createSelfMessage="false" signatureText="new ScheduleJobServiceClient()">
+            <referencesInternal>
+              <reference Id="3ec9aa3d-cbc9-40bf-93dd-ac1c8a7b029b" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient Member=.ctor)&quot;)" tag="DGQL" />
+              <reference Id="012b9fb9-ed2c-45ff-ae2f-d85b1d93cfea" handle="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient Member=.ctor)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="135555ee-8366-476b-b208-60a1cdd7782d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e3d2e658-d43d-4014-936e-c3421798942c" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="0b08b862-b1b5-4710-b55c-f445aee4d06d" name="建立 ClientBase‎&lt;IScheduleJobService‎&gt;" messageKind="Complete" messageSort="CreateMessage" createSelfMessage="true">
+            <referencesInternal>
+              <reference Id="ed4c6136-6abf-470f-a998-378c946cac3c" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=System.ServiceModel)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/System.ServiceModel.dll&amp;quot; Namespace=System.ServiceModel Type=(Name=ClientBase GenericParameterCount=1))&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/System.ServiceModel.dll&amp;quot; Namespace=System.ServiceModel Type=(Name=ClientBase GenericParameterCount=1) Member=.ctor)&quot;)" tag="DGQL" />
+              <reference Id="1fc3a3f9-82d2-43c5-bbb5-2c335e5f5518" handle="(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/System.ServiceModel.dll&quot; Namespace=System.ServiceModel Type=(Name=ClientBase GenericParameterCount=1) Member=.ctor)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ad85d66c-aceb-41db-bf7f-68ccc51490d7" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="0432abbd-6f23-4ff5-9598-5ac8159d6358" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="b0a3d199-0a01-4e54-ab1e-fe4a9520cf0a" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="8e0e4082-0f1f-4b3a-a1c1-149a8493038d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="7070d37d-598c-46f7-822e-598221998a97" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="3b25bcef-204e-4918-95b3-c71252fc2712" name="StartNewScheduleJob" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="context.StartNewScheduleJob(job)">
+            <referencesInternal>
+              <reference Id="253a8d57-f85b-477b-b8b0-d5be89f8005d" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient Member=(Name=StartNewScheduleJob OverloadingParameters=[(Assembly=&amp;quot;$(4fe0e3ab-21f9-4d94-bd23-bf1e83383106.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.ScheduleJob.Store Type=JobData)]))&quot;)" tag="DGQL" />
+              <reference Id="5f6bff0a-db9d-46ee-bb90-dbc3ee9888d4" handle="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=ScheduleJobServiceClient Member=(Name=StartNewScheduleJob OverloadingParameters=[(Assembly=&quot;$(4fe0e3ab-21f9-4d94-bd23-bf1e83383106.OutputPathUri)&quot; Namespace=Mxic.Framework.ScheduleJob.Store Type=JobData)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f9803335-8cb0-4317-be5c-38e52a9167c3" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="4cab6651-70fc-49c9-8208-290981a65329" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="47182c06-cff8-404f-bc6a-49f2afcd7491" name="StartNewScheduleJob" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="base.Channel.StartNewScheduleJob(jobData)">
+            <referencesInternal>
+              <reference Id="fee29c3c-b1ba-496f-a557-3c475029e1f0" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=IScheduleJobService)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=IScheduleJobService Member=(Name=StartNewScheduleJob OverloadingParameters=[(Assembly=&amp;quot;$(4fe0e3ab-21f9-4d94-bd23-bf1e83383106.OutputPathUri)&amp;quot; Namespace=Mxic.Framework.ScheduleJob.Store Type=JobData)]))&quot;)" tag="DGQL" />
+              <reference Id="03d670d8-4530-4f00-9d65-2ed1b8a4ab20" handle="(Assembly=&quot;$(575b6c2a-388b-4e1c-af9c-ec766bb704af.OutputPathUri)&quot; Namespace=Mxic.Framework.WinScheduleUI.ScheduleJobServices Type=IScheduleJobService Member=(Name=StartNewScheduleJob OverloadingParameters=[(Assembly=&quot;$(4fe0e3ab-21f9-4d94-bd23-bf1e83383106.OutputPathUri)&quot; Namespace=Mxic.Framework.ScheduleJob.Store Type=JobData)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="937aef7c-a74e-4e6b-bca6-d83bba427790" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="1596addf-e297-4030-8f59-41b31d01634c" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="c7f31538-3994-40cd-8664-6f6b2971d37f" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="094446a1-fbde-44ff-b9af-ce2c457f742e" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5806d4ab-b6db-4e77-a79d-1cd830f7a46b" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="5038d570-fd4a-4cf4-8e23-80475f75be0d" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6cdf3cf1-0b6c-4676-86a4-ff0ce1331fe2" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="a1922d30-4fae-438c-9452-59c6a63158a4" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="8077b45f-9cf3-4720-84c5-d84b30bbdd31" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="198ffdf2-6227-4f28-be8b-f020ac8f6416" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="63f0570a-1a64-4f4b-a241-0b6351941421" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a60ea2f7-03c7-4bfe-86d3-4f5c831ad802" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="0d5a31ab-8812-4b7e-aeea-f9f5b4933037" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="d9bbd21a-44c6-4cdb-bb2a-a0aee4174d15" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e9b36211-897f-467e-ba75-099c25259f46" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="18087ced-dc45-4f15-afe9-8b29698b580c" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ba442e3a-21fe-4766-96cc-3865511726d6" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="c6d9ba94-b3f7-4680-9306-0dbee2a546b1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

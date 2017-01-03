@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UseCase_排程服務系統">
+  <useCaseModelRootMoniker Id="cf14cf7a-9bc0-4a94-bed8-f368855cde8c" />
+  <nestedChildShapes>
+    <actorShape Id="9a376b55-4b4a-43dd-9526-94601fe04abd" absoluteBounds="0.75, 1.25, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="1025d8ff-4ad7-4ff4-8f73-b253cd6f498f" LastKnownName="開發人員" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="c6f4de4a-87d8-478d-a350-4603ad43194e" absoluteBounds="0.75, 5.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="278eec2f-cc25-44f8-8eca-c50b4e1c643a" LastKnownName="作業員" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="40a2ff67-185d-43b6-8c87-7b94729807eb" absoluteBounds="4.125, 0.75, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="c65fb57f-3002-4ab0-bd8b-8137d6b13c73" LastKnownName="透過實作 IJob 介面開發排程" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.25 : 1.47950819672131); (4.13063311998341 : 1.24339072787021)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="605638af-c5a7-43a8-b2ae-6355f97a2856" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="9a376b55-4b4a-43dd-9526-94601fe04abd" />
+        <useCaseShapeMoniker Id="40a2ff67-185d-43b6-8c87-7b94729807eb" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="f954bb3f-3a90-4a22-b99e-f5914ffefc6d" absoluteBounds="4.75, 1.875, 1.625, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="6e615c28-80d6-4ac9-b239-dff24549dd74" LastKnownName="透過 XML 檔案定義 Schedule Jod 清單內容" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.25 : 1.54452054794521); (4.7910931080189 : 2.17512616992117)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="94ac76f8-6239-4744-ad05-20a47f464346" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="9a376b55-4b4a-43dd-9526-94601fe04abd" />
+        <useCaseShapeMoniker Id="f954bb3f-3a90-4a22-b99e-f5914ffefc6d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="8680b2ba-90ae-40be-a047-13838baa8176" absoluteBounds="4, 3, 1.625, 1.25" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="05533da0-8b4f-4da1-8f84-b2d1dee36f5f" LastKnownName="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.25 : 1.63934426229508); (4.15456339857186 : 3.25828123854825)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="dffb5332-38ac-4a77-aa6d-8783a90d4a19" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="9a376b55-4b4a-43dd-9526-94601fe04abd" />
+        <useCaseShapeMoniker Id="8680b2ba-90ae-40be-a047-13838baa8176" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="78bf5743-2a13-4162-95d1-d03e953bd24b" absoluteBounds="4, 4.5, 1.5, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b54c64bb-c5bb-43e8-8dac-5792729e32aa" LastKnownName="只要將DLL複製到BIN底下即可執行" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.25 : 1.725); (4.38576780161603 : 4.54719102145442)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="79324535-8473-489d-a2b7-4206142e0cff" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="9a376b55-4b4a-43dd-9526-94601fe04abd" />
+        <useCaseShapeMoniker Id="78bf5743-2a13-4162-95d1-d03e953bd24b" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="ff3151ad-0515-4228-8dbe-1aedd79e96d9" absoluteBounds="5.5, 5.375, 1.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="726a053a-713a-4577-8e36-35661693aab3" LastKnownName="Schedule Job UI 編輯器" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.25 : 5.75); (5.5 : 5.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="315e943c-6d94-41aa-9ac3-275089f636d5" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="c6f4de4a-87d8-478d-a350-4603ad43194e" />
+        <useCaseShapeMoniker Id="ff3151ad-0515-4228-8dbe-1aedd79e96d9" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <includeConnector edgePoints="[(5.64166695878053 : 2.74791827329289); (6.11965102609427 : 5.37683064351847)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«包含»">
+      <includeMoniker Id="99ef69a7-f4ff-458c-93f9-8d3e16e3c1ce" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="6, 4, 0.52083333333333337, 0.15087890625" shapeFieldName="NameDecorator" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <useCaseShapeMoniker Id="f954bb3f-3a90-4a22-b99e-f5914ffefc6d" />
+        <useCaseShapeMoniker Id="ff3151ad-0515-4228-8dbe-1aedd79e96d9" />
+      </nodes>
+    </includeConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

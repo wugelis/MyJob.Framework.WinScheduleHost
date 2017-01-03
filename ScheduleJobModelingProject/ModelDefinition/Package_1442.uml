@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b1dc0fc7-2ca9-4c95-8356-89e57f4cae4f"
+  name="NLog"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0185bbe2-c815-494d-9064-f29d9ee6fccf"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNLog"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9d06d942-b5c0-461d-a418-4f5b308eaf6a"
+        name="Logger"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="556cee95-9137-4bf2-92df-8f34499672f9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2Fpackages%2FNLog.3.1.0.0%2Flib%2Fnet45%2FNLog.dll&quot; Namespace%3DNLog Type%3DLogger"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5b6bf66d-126c-44fd-9dac-e6a9ce68f5e0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e30fb6ae-0dc3-42d1-a3f3-a6eb2a1f7554">
+                <propertyInstance
+                  Id="3b0582f9-dcec-4c8b-8915-a893ab5030c7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a622177d-24f7-4197-ba78-6cb32d6f341e">
+                <propertyInstance
+                  Id="567910af-8488-4648-aef5-fff8aec3a91f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e40f677-b2b5-436c-8640-44da58a05c7f">
+                <propertyInstance
+                  Id="3f8c8357-3b37-4366-9a45-1f842e55c34f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66dedd1f-4302-44a7-9358-bfbf137df954">
+                <propertyInstance
+                  Id="11b3a310-05e3-4f64-b12b-14eb0a3f9ba6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="59f000ec-2c61-4ab3-9e24-3d92de46ca79">
+                <propertyInstance
+                  Id="af867c8c-0b6b-49a9-a786-814b8b50ecec"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="631d5e77-715e-489f-ae3e-a89a77959917"
+        name="LogLevel"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fadad37c-d8fc-48f8-b181-860f4e704086"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2Fpackages%2FNLog.3.1.0.0%2Flib%2Fnet45%2FNLog.dll&quot; Namespace%3DNLog Type%3DLogLevel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d69daaec-a287-4117-babb-101941686ef0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb9b9e85-ac5e-40b4-9c8f-947bb7bcc786">
+                <propertyInstance
+                  Id="4497d15a-6977-4689-91ff-0ca0a5e9971d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3db549a7-67e6-435c-b62a-c0cda333e719">
+                <propertyInstance
+                  Id="6265f599-6d50-486c-a2b4-6926bcf3dc48"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7b99e655-abda-4355-98a3-ffe511507542">
+                <propertyInstance
+                  Id="401d3086-7b4c-4cff-a5a7-ecbae70a5347"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78fe7b2c-3db2-4901-943b-3ca3fedb7bbf">
+                <propertyInstance
+                  Id="558a74c2-991c-4e55-99e5-2ed5a7fea751"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="766c26ed-8e19-48bf-8a97-735c866806c2">
+                <propertyInstance
+                  Id="347f6021-dd20-4fca-b689-f0e1431f8274"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

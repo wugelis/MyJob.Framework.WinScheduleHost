@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="2e541a1d-cf2d-49c8-b5c8-8b9bd07c10eb" name="MxicScheduleJob_Domain_ClassDiagram" linkedPackageId="2753e277-cfb4-41b4-8546-cf4bd40db954" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d6944439-df7f-46b2-8a9a-a1f97bcfb9d8" name="MainThread" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="67c99350-bc31-4225-9bcf-44928c009b63" />
+        <targetEnds>
+          <association Id="70a6881c-5207-40d2-9b1d-c6ff6ddc623f" isDerived="false" sourceEndRoleName="MainThread" targetEndRoleName="WorkerThread " isLeaf="false" isAbstract="false">
+            <classMoniker Id="db0d7e14-ffcd-4c5d-b491-54e021674946" LastKnownName="WorkerThread " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ce8bf100-bee4-4817-965b-06ac33ad516b" name="MainThread" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0437c357-4f97-4ca1-b629-32c988244e78" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="888880a1-dd5d-4748-ad86-6196dff9bc02" name="WorkerThread " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="cd2f4b37-ac81-4090-aa9c-53d6a4de9512" name="Lower" value="1">
+                      <elementDefinition Id="e86c0226-ed49-48c7-ac64-43a882558f6d" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="5bb4a15e-79dd-4dc4-9568-0b8ce3c8df48" name="Upper" value="*">
+                      <elementDefinition Id="7fa5cbd3-ba1b-4cce-a091-eda3882a2420" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="32e1aceb-4eeb-4ea1-8811-0c339e8214a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f2bb8a5d-4100-40d0-84ee-8de9f788fefc" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="72120ab2-b96d-4ab4-8abe-412b6765371c" name="ReTry" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="dfd2bbae-98ad-4e7b-bb03-839ef13b9dec" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7f8848de-17a3-4bd9-bec4-0a69080dfd13" name=" ScheduleType" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="51b2d9be-1c7a-4170-af0c-4f037c7bd57b" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9f7ac6c0-e286-46d7-a8c2-74a2233af2d0" name=" JobStatus" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="28620afa-73e2-4f0b-a4ef-0ee73dbff93a" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9f90ed69-e428-4836-b5ef-9df649808364" name="ExceptionHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="26b5f541-09f7-4571-8052-4d54a53f3ecd" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e68992c2-6ebd-457c-9742-da7d7a419171" name="ScheduleJobBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9c8cc666-a652-4e4c-9c48-fff0446c796b" />
+        <targetEnds>
+          <association Id="5d9fd97c-9860-4ae7-8143-c04595ab1fcb" isDerived="false" sourceEndRoleName="ScheduleJobBase" targetEndRoleName="JobData" isLeaf="false" isAbstract="false">
+            <classMoniker Id="592ddace-f4fc-44e3-bfff-db9c8cf83d57" LastKnownName="JobData" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3a9b0322-6a05-4572-9abd-f1b61bb2ce58" name="ScheduleJobBase" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="857a03d6-0a42-4dee-88bc-4601c0534d8c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe9f31d1-d104-424a-8de7-13a3fa7c68d7" name="JobData" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bee8e448-26eb-4524-8d52-fd085ddf75af" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3bf6af72-dd5e-434f-9119-559e4f9cfc56" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b8ab7b47-23f1-4dc1-b8b3-0abee54fbfaf" name="ScheduleJob.Core" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="50152f99-aab6-4ae5-8908-d442bdb9eaff" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d5eef897-5f1e-46c6-870f-641cd5cdd971" name="ScheduleJob.Engine" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0e3ba239-25e6-49e8-98f2-b65e632a2214" />
+        <targetEnds>
+          <association Id="2c5b02df-ad5b-47a2-8e73-0f739292c36f" isDerived="false" sourceEndRoleName="ScheduleJob.Engine" targetEndRoleName="MainThread" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d6944439-df7f-46b2-8a9a-a1f97bcfb9d8" LastKnownName="MainThread" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="56255218-7f49-4995-9e46-8833f883abc9" name="ScheduleJob.Engine" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c6967e36-c337-40a1-b465-1d6d5302e1ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9c12d962-0c9e-48e3-9cb3-2755e162207d" name="MainThread" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="02e685d1-8fb6-49ef-bc7f-996dc77a7c6a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="02475a2b-9448-40b5-b125-5c465f078953" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="867c506d-0de7-4dae-a0fe-1154a83675f7" name="ScheduleJob.Store" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="78a793ae-51d6-4aa1-95c0-991b66994a6a" />
+        <targetEnds>
+          <association Id="575513e6-e362-4e92-8f14-30dfc7e36f41" isDerived="false" sourceEndRoleName="ScheduleJob.Store" targetEndRoleName="RunningTable" isLeaf="false" isAbstract="false">
+            <classMoniker Id="502385a2-429e-4567-85f6-2f751fe6e2ca" LastKnownName="RunningTable" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c99fcc9d-6003-48f3-a5f0-7114f9a03be1" name="ScheduleJob.Store" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c85585cb-7243-4d48-b29e-efdcb5e0bebe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="72616337-8944-4581-8628-bc464963002b" name="RunningTable" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fddedfec-69df-40ec-a6d2-3117e2860c43" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9e1efb7a-1cad-414f-8e09-7ed7616d59eb" />
+          </association>
+          <association Id="ba0a1d39-d3ee-4cea-8549-16873d72a90e" isDerived="false" sourceEndRoleName="ScheduleJob.Store" targetEndRoleName="RunningJob" isLeaf="false" isAbstract="false">
+            <classMoniker Id="417de9a4-8575-4db7-8114-1a9759cfddb5" LastKnownName="RunningJob" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48acd0ef-df0d-4cbe-a383-b152b51147b4" name="ScheduleJob.Store" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="65c46b50-9782-4337-8a9d-8f533260869d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ae5ca946-ad61-4075-829f-967071f0c1e3" name="RunningJob" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c4258ba7-7e55-40c9-8601-7c99f0bbae68" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="983b528c-6959-46a1-8efb-7f84d75d5d80" />
+          </association>
+          <association Id="6a0a6efa-ff86-4120-969d-171ac4955bc6" isDerived="false" sourceEndRoleName="ScheduleJob.Store" targetEndRoleName="JobHelper" isLeaf="false" isAbstract="false">
+            <classMoniker Id="44efbb9c-0648-4f5a-b091-e8c70edb6790" LastKnownName="JobHelper" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f6d6f3cb-41d3-4ee1-9e21-0a0f467e8a99" name="ScheduleJob.Store" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="90758100-57f3-420f-a623-95a618e3559d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c6e07360-e429-474c-8b2c-f83c982ec2a8" name="JobHelper" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cf1c6587-857d-4a56-9efd-fa6ca53e1996" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d8e956fa-d891-44b1-913d-f0c452103532" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="db0d7e14-ffcd-4c5d-b491-54e021674946" name="WorkerThread " isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1788bbd0-363a-4f5f-8457-6b5a57399196" />
+        <targetEnds>
+          <association Id="c4abc9a7-a352-48f0-9139-446c230d9e34" isDerived="false" sourceEndRoleName="WorkerThread " targetEndRoleName="ExceptionHandler" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9f90ed69-e428-4836-b5ef-9df649808364" LastKnownName="ExceptionHandler" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7151593d-9ccc-4bd5-9fa1-d95cc942625a" name="WorkerThread " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="40eb2ce6-a59d-43f5-9963-ff15d06fab0c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e9c87ab-a80d-4b6c-a700-7d21489b5e39" name="ExceptionHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6473c260-13d2-46d1-8f26-0da08ad9cc15" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d95327d1-1c63-4e81-bf80-aef1b72ec720" />
+          </association>
+          <association Id="c65869be-9302-4f6c-b330-6e51cb71ca4c" isDerived="false" sourceEndRoleName="WorkerThread " targetEndRoleName="RunningTable" isLeaf="false" isAbstract="false">
+            <classMoniker Id="502385a2-429e-4567-85f6-2f751fe6e2ca" LastKnownName="RunningTable" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="167f1c10-2bec-406c-89eb-42c1ddae5850" name="WorkerThread " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3e346e56-6cae-4f04-abe8-783368c09944" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="81b14da3-0685-4212-a1f6-06cc630f33db" name="RunningTable" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f83c186a-2f9e-4d88-a428-4c0884121aae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7472741b-128d-470b-a4c7-f032336793ea" />
+          </association>
+          <association Id="50e45677-0c9a-49c3-8e48-2dd6c251ac1a" isDerived="false" sourceEndRoleName="WorkerThread " targetEndRoleName=" JobStatus" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9f7ac6c0-e286-46d7-a8c2-74a2233af2d0" LastKnownName=" JobStatus" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1c134347-0c10-41a4-a54a-4881d7961dbf" name="WorkerThread " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4cd48ff1-0cd8-4280-a7f7-e8f4bbe7269f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3cef8d5b-8657-447c-8d7c-f3afb0ea47af" name=" JobStatus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8bee8851-5399-49aa-9667-6b476909721f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8f2bf41f-a9d8-4e84-9775-82191b385f1d" />
+          </association>
+          <association Id="ab22f458-be7c-47d1-a407-39865a848f48" isDerived="false" sourceEndRoleName="WorkerThread " targetEndRoleName="RunningJob" isLeaf="false" isAbstract="false">
+            <classMoniker Id="417de9a4-8575-4db7-8114-1a9759cfddb5" LastKnownName="RunningJob" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cd19eb3c-4581-40a5-b958-2924cbe3f934" name="WorkerThread " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dd8bfc88-4e83-4188-9cde-4d479bef6297" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9f73c963-f389-445f-9bbb-b4b4a873f018" name="RunningJob" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5895fcfe-cda3-4f60-b8d6-c20b65367b8d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="375f2423-8ab3-4364-a414-b57e8948466c" />
+          </association>
+          <association Id="ecc642e9-6383-4bee-a8d6-2dd0028b48dd" isDerived="false" sourceEndRoleName="WorkerThread " targetEndRoleName="ReTry" isLeaf="false" isAbstract="false">
+            <classMoniker Id="72120ab2-b96d-4ab4-8abe-412b6765371c" LastKnownName="ReTry" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f2dda94b-cf50-4b1a-b887-d959e4731aec" name="WorkerThread " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b0321b5a-533c-4c20-9c92-ba5aef6623bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="62f4e498-5827-497f-b7d6-91cf0d235a52" name="ReTry" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="09270dd6-93d9-4f8f-bdc2-4bdfac0a0718" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="93eeeb36-5b16-4fa6-963c-c410b572ecd2" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="417de9a4-8575-4db7-8114-1a9759cfddb5" name="RunningJob" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0a2e2185-4cf1-4f1d-b317-b72c82172069" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="502385a2-429e-4567-85f6-2f751fe6e2ca" name="RunningTable" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c51a5a92-5dc4-4149-956c-06b24238d7ea" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="44efbb9c-0648-4f5a-b091-e8c70edb6790" name="JobHelper" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f5f64e5e-07a0-49b3-a70b-3a8878b6aacf" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="592ddace-f4fc-44e3-bfff-db9c8cf83d57" name="JobData" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="378ca972-5cc4-46cd-b730-85ecaf03d6cc" />
+        <targetEnds>
+          <association Id="c55873b4-a27a-41c2-8571-f0534931f507" isDerived="false" sourceEndRoleName="JobData" targetEndRoleName=" ScheduleType" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7f8848de-17a3-4bd9-bec4-0a69080dfd13" LastKnownName=" ScheduleType" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="83b370d4-5d07-4fe6-8531-ca7b638baa09" name="JobData" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5f109bb0-ca8f-4131-b788-d8237a597df4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f2f377d1-3bda-4498-98af-89e377ad0d04" name=" ScheduleType" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a843179b-08df-452e-a9a7-16241ac466ef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b1064414-4900-44bf-8cfc-6dcb81c0a569" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f74010b4-ddbf-4f87-9496-ad3230679981" name="ScheduleHostService " isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e95c6523-e266-4369-b366-bfb8e4ade937" />
+        <targetEnds>
+          <association Id="fe14d829-d23c-4056-843e-cbe1e064544c" isDerived="false" sourceEndRoleName="ScheduleHostService " targetEndRoleName="ScheduleJob.Engine" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d5eef897-5f1e-46c6-870f-641cd5cdd971" LastKnownName="ScheduleJob.Engine" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eb29a7c5-0188-4aae-9998-daab1772cca1" name="ScheduleHostService " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e463391a-3c68-4b04-a188-1280f1aba1f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fba99b6b-b8d8-4e90-bac6-77a8c355c80e" name="ScheduleJob.Engine" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="32273e06-db2f-4477-b970-25f91a19b42c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="13841e36-f24d-4df1-97e4-05bf190b615d" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="2753e277-cfb4-41b4-8546-cf4bd40db954" name="ScheduleJobModelingProject">
+    <elementDefinition Id="6258ee25-59bc-474a-8139-81901c213c83" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a7e8cebf-7ae2-41f0-acea-970c8e264902">
+        <profileInstance Id="fa5009de-4853-4203-ac52-a8bb929440d0" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b79a0cf1-3f87-422a-8830-825660673330">
+        <profileInstance Id="962c3d1a-66da-482d-a6b9-038e2d4f9135" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="15e89423-f35c-4139-b8f1-4dd511c2043c">
+        <profileInstance Id="b3517ea5-5cb0-4be3-ac01-14a7343ddbdd" name="CSharpProfile">
+          <elementDefinition Id="e0c72e18-3ce4-4a0a-92c2-ae72d5a409d1" />
+        </profileInstance>
+        <elementDefinition Id="0b04fd18-a303-4946-b961-589ad06e6a34" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

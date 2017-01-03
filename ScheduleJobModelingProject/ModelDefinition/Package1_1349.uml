@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5c14d420-8396-4be6-9cc6-fe39c638c212"
+  name="ServerComponent"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2c6a1d7b-d251-4601-ae7b-9ee9ebc4d4d3"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMxic.Framework.ServerComponent"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="07f72828-901d-456d-9675-33be98f644b5"
+        name="WriteLogAttribute"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bb2c458a-c02a-4823-b0f6-46edfcaab8fa"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2Fpackages%2FMxic.Framework.ServerComponent.0.9.0.2%2Flib%2Fnet451%2FMxic.Framework.ServerComponent.dll&quot; Namespace%3DMxic.Framework.ServerComponent Type%3DWriteLogAttribute"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2d540b18-290f-4774-bba7-8c9fe7e5a13b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f068586-a48a-4571-aa5d-317b359aaecf">
+                <propertyInstance
+                  Id="359785db-5096-410f-88c8-236c07c491b1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="30928fae-1d17-4db4-ad99-3a8cc5d6cff8">
+                <propertyInstance
+                  Id="a7c64fc9-9f7e-45f1-b937-27e9d5414840"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e6c23fd-5e44-4994-a68d-83f38701b8c2">
+                <propertyInstance
+                  Id="ea492537-3e4f-4521-885d-0a48809278c3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3fa0a37b-7e10-4c99-be21-51ffb0dbca23">
+                <propertyInstance
+                  Id="f8d7609a-5959-4b2f-852a-6bf64f625940"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c831222-b532-441c-bd5c-433b2357164f">
+                <propertyInstance
+                  Id="fa3faa02-e63b-4bcd-a8b2-4d19e24be713"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6fdd237a-1f1e-48b2-bd72-76d3c7f6a38d"
+        name="WriteExceptionLogAttribute"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9c6af884-ec7d-4732-afc0-8c177779536d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2Fpackages%2FMxic.Framework.ServerComponent.0.9.0.2%2Flib%2Fnet451%2FMxic.Framework.ServerComponent.dll&quot; Namespace%3DMxic.Framework.ServerComponent Type%3DWriteExceptionLogAttribute"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e2e25c50-b4c9-43aa-8204-0fd8db2de79a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc05deed-46c2-4eb1-b20c-ef023f65fe24">
+                <propertyInstance
+                  Id="0ee3c3af-3f9c-4520-bcff-eeba92f5209a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4b29d8d-1810-484c-8eee-20027620a568">
+                <propertyInstance
+                  Id="135141cb-97d8-411d-a813-d9f630799329"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6185f553-a1d0-445e-a598-41ac64dea76c">
+                <propertyInstance
+                  Id="0434a2f6-f0bf-4cd2-91cb-80999798ba04"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="124ac293-588d-454f-b06c-342214defaa5">
+                <propertyInstance
+                  Id="273fee84-364e-4a2b-a543-549e2673d6d6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4434c644-6992-4905-ad88-f9fb7373ba43">
+                <propertyInstance
+                  Id="aa83d737-ef86-40bd-a2ae-e2362fc57e2e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8e317931-8fa4-4cb4-a1bd-5e67884f7d8a"
+        name="ErrorLevelAttribute"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cda85042-50a6-4da1-9b1f-b61e2ebbec16"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FVisual Studio 2013 Demo%2FScheduleJob%2FMxic.Framework.WinScheduleHost%2Fpackages%2FMxic.Framework.ServerComponent.0.9.0.2%2Flib%2Fnet451%2FMxic.Framework.ServerComponent.dll&quot; Namespace%3DMxic.Framework.ServerComponent Type%3DErrorLevelAttribute"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7574d54a-1223-4547-9796-293de3931103"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62ea7571-8bd3-40d4-8ab7-8efc466191b4">
+                <propertyInstance
+                  Id="50de6152-5490-468b-bfba-ce7adfd52931"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47a3ad13-4bd9-49b0-a6b9-543387d38d65">
+                <propertyInstance
+                  Id="e2fcdaf8-9dba-43ea-89dc-70d9b41e72be"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="53976a6f-452e-41c7-8f94-8cba6ac9e563">
+                <propertyInstance
+                  Id="db86ccce-4b29-4219-a2d6-bc3fd3b14cb1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="130fb8ed-6711-4424-ae10-a8e7898e6ffc">
+                <propertyInstance
+                  Id="16d8be12-a61f-4339-8da0-8faafcb11713"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="186929bc-9bb1-4ead-86c9-99e30305228b">
+                <propertyInstance
+                  Id="1aa1f30f-a85e-4e4a-868b-de80cf440177"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

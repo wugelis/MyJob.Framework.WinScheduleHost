@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="40da5d32-0d8d-4fea-ba54-9348b79fbb3e"
+  name="Mxic.Framework.ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="d0ade544-6894-4704-8c93-9727d2fd24d8"
+        name="開發人員"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="ba98afc1-161b-4840-acad-8efaca656f7d"
+            isDerived="false"
+            sourceEndRoleName="開發人員"
+            targetEndRoleName="透過實作 IJob 介面開發排程"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0d9f5c76-41fe-48d0-b086-13cae02f4d3d"
+              LastKnownName="透過實作 IJob 介面開發排程"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="361cdf13-b87c-4d6c-aaca-943279f60c89"
+                  name="開發人員"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="102bc7c6-2964-47ee-91c5-acc334b0d2c5"
+                  name="透過實作 IJob 介面開發排程"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="85407595-73a9-42bf-9fe5-072bbebf5b18"
+            isDerived="false"
+            sourceEndRoleName="開發人員"
+            targetEndRoleName="透過 XML 檔案定義 Schedule Jod 清單內容"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="eee2a52e-e3cf-46a1-9bc0-293cc3000a17"
+              LastKnownName="透過 XML 檔案定義 Schedule Jod 清單內容"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="67967d9e-382c-4da9-b3c5-c98718202a2a"
+                  name="開發人員"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="976f7058-9271-46a1-a131-771f92c571ea"
+                  name="透過 XML 檔案定義 Schedule Jod 清單內容"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="47883fe7-7fa7-4b35-828b-3196b3eabb73"
+            isDerived="false"
+            sourceEndRoleName="開發人員"
+            targetEndRoleName="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3242f161-8bb9-4c31-8677-c8213d41f279"
+              LastKnownName="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="39a9cadc-37d7-4143-97e7-703d68e588f6"
+                  name="開發人員"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="53a98565-affd-46f9-8acc-1bf696070267"
+                  name="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f62dc89f-b410-4b0b-a68a-34e868ee1eff"
+            isDerived="false"
+            sourceEndRoleName="開發人員"
+            targetEndRoleName="只要將DLL複製到BIN底下即可執行"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="60ad7081-bfda-4ce6-9c79-18333bfe2ea1"
+              LastKnownName="只要將DLL複製到BIN底下即可執行"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8a78aefe-c8b5-4073-a97d-ddaf1b5b5dc4"
+                  name="開發人員"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="755358dd-096e-4f1f-a5ab-290d82d00a61"
+                  name="只要將DLL複製到BIN底下即可執行"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="89759e51-0bc2-45bd-8847-7af88405696f"
+        name="作業員"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="300d3cad-1459-41ce-b5ca-d78282d4fbf4"
+            isDerived="false"
+            sourceEndRoleName="作業員"
+            targetEndRoleName="Schedule Job UI 編輯器"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9f88e9d3-5855-45f1-a139-d30083e4b77d"
+              LastKnownName="Schedule Job UI 編輯器"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a1fdf2e2-d67c-4050-b4d3-abf9197900f3"
+                  name="作業員"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1e29514a-88fa-4011-ad37-0929b0641947"
+                  name="Schedule Job UI 編輯器"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0d9f5c76-41fe-48d0-b086-13cae02f4d3d"
+        name="透過實作 IJob 介面開發排程"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="eee2a52e-e3cf-46a1-9bc0-293cc3000a17"
+        name="透過 XML 檔案定義 Schedule Jod 清單內容"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="9800a633-86dc-4168-8cee-88cff2cab905">
+            <useCaseMoniker
+              Id="9f88e9d3-5855-45f1-a139-d30083e4b77d"
+              LastKnownName="Schedule Job UI 編輯器"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="60a9ddef-f1dc-420f-9d11-7bcb5c518bc1"
+        name="ServiceHostEngine"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="3278edbf-0a50-4447-a8d2-ed74727b8fd7">
+            <classMoniker
+              Id="2d065a0d-d591-4852-9711-09eb084a98ba"
+              LastKnownName="ScheduleHostService"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2d065a0d-d591-4852-9711-09eb084a98ba"
+        name="ScheduleHostService"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f9c4b785-dd0c-4671-a3d6-6aa6686a580e"
+        name="ScheduleJob.Core"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="9026f87a-c9bd-4f6a-8f60-8d8c0412693e">
+            <classMoniker
+              Id="60a9ddef-f1dc-420f-9d11-7bcb5c518bc1"
+              LastKnownName="ServiceHostEngine"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+          <dependency
+            Id="ea5cbc2b-75d7-4b9b-a442-11c76021ec7a">
+            <classMoniker
+              Id="2d065a0d-d591-4852-9711-09eb084a98ba"
+              LastKnownName="ScheduleHostService"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2949a53a-2b17-4b91-9155-1ad940395d9e"
+        name="ScheduleJob.Store"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="90ef61c9-39c1-40c8-906d-d9bf9def2fcb">
+            <classMoniker
+              Id="2d065a0d-d591-4852-9711-09eb084a98ba"
+              LastKnownName="ScheduleHostService"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+          <dependency
+            Id="33f7cfa9-69eb-431a-96bd-28c069cbd147">
+            <classMoniker
+              Id="60a9ddef-f1dc-420f-9d11-7bcb5c518bc1"
+              LastKnownName="ServiceHostEngine"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b3da832e-a36f-4611-b3e8-d512f4ad97c8"
+        name="ScheduleJobBase"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="7e545ef8-8d4a-4cc4-97c7-b83a81e41eda">
+            <interfaceMoniker
+              Id="7ece3ddc-09f8-4293-bc26-ee6aeef85538"
+              LastKnownName="IJob"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ba17b964-29c4-4f8e-bb7a-bae7989483c3"
+        name="RunningJob"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8e2c7b78-c2ad-4f46-b171-6f2b848b2626"
+        name="ListJobData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="94337167-1585-48ce-91bf-e67d2ac1efd5">
+            <classMoniker
+              Id="5b842cb6-5d5e-4ace-98a2-696db759199c"
+              LastKnownName="JobData"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+          <dependency
+            Id="b4cb173a-8950-49c5-8aaf-f0bb31796634">
+            <classMoniker
+              Id="2949a53a-2b17-4b91-9155-1ad940395d9e"
+              LastKnownName="ScheduleJob.Store"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="b50e969d-83d6-4b66-8eea-c7f82df2cd8e"
+            name="JobDatas"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="550e308a-ee3c-42f2-844b-89744d8ec12f"
+                LastKnownName="JobData[]"
+                LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5b842cb6-5d5e-4ace-98a2-696db759199c"
+        name="JobData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="b5448442-9732-44af-8be4-df6e85ae398b">
+            <classMoniker
+              Id="ba17b964-29c4-4f8e-bb7a-bae7989483c3"
+              LastKnownName="RunningJob"
+              LastKnownLocation="Mxic.Framework.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="550e308a-ee3c-42f2-844b-89744d8ec12f"
+        name="JobData[]" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7ece3ddc-09f8-4293-bc26-ee6aeef85538"
+        name="IJob"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3242f161-8bb9-4c31-8677-c8213d41f279"
+        name="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="60ad7081-bfda-4ce6-9c79-18333bfe2ea1"
+        name="只要將DLL複製到BIN底下即可執行"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9f88e9d3-5855-45f1-a139-d30083e4b77d"
+        name="Schedule Job UI 編輯器"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b0f37194-ba78-4079-8214-f6feb1bb6398"
+        name="ThreadWorker"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3a05b6e4-631c-4a1d-8a8f-576932dcc14c"
+        name="MainThread"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

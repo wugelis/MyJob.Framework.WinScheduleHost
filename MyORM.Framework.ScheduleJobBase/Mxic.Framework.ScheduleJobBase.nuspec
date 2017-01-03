@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Mxic.Framework.ScheduleJobBase</id>
+    <version>1.0.0.0</version>
+    <title>Mxic.Framework.ScheduleJobBase</title>
+    <authors>MentorTrust</authors>
+    <owners>MentorTrust</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Mxic Framework for ScheduleJob Mxic.Framework.ScheduleJobBase</description>
+    <copyright>MentorTrust Copyright ©  2014</copyright>
+    <dependencies>
+      <group>
+        <dependency id="Mxic.Framework.ServerComponent" version="0.9.0.1" />
+      </group>
+    </dependencies> 
+  </metadata>
+</package>

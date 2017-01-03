@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobExamples", "JobExamples", "{CD2052ED-7E4B-4EAA-8BA7-48D6AEBE9FC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGetPackages", "NuGetPackages", "{3F968DA3-2F8D-46D1-B914-05D4F74233A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{33059E1C-877F-4544-97C2-FB3F1D4C3289}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob.Core", "MyORM.Framework.ScheduleJob.Core\MyORM.Framework.ScheduleJob.Core.csproj", "{9B8D22B3-A519-4E3B-8953-FB30EA0DFEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob.Engine", "MyORM.Framework.ScheduleJob.Engine\MyORM.Framework.ScheduleJob.Engine.csproj", "{991D3B5D-9091-4F4D-99F9-DD2BB800C3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJobBase", "MyORM.Framework.ScheduleJobBase\MyORM.Framework.ScheduleJobBase.csproj", "{91B45E3F-3FAB-464C-8A64-6AC19FBF4178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob.Services", "MyORM.Framework.ScheduleJob.Services\MyORM.Framework.ScheduleJob.Services.csproj", "{B0E0B00A-6C5C-404D-AFBC-202A3CB39DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob.Store", "MyORM.Framework.ScheduleJob.Store\MyORM.Framework.ScheduleJob.Store.csproj", "{4FE0E3AB-21F9-4D94-BD23-BF1E83383106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.WinScheduleHost", "MyORM.Framework.WinScheduleHost\MyORM.Framework.WinScheduleHost.csproj", "{B690C4BC-900E-4C39-A518-0093E55107E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.WinScheduleUI", "MyORM.Framework.WinScheduleUI\MyORM.Framework.WinScheduleUI.csproj", "{575B6C2A-388B-4E1C-AF9C-EC766BB704AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleHostServices", "MyORM.Framework.ScheduleHostServices\MyORM.Framework.ScheduleHostServices.csproj", "{51F1B06E-873A-4A56-958E-D68ABC149091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJobBase.Template", "MyORM.Framework.ScheduleJobBase.Template\MyORM.Framework.ScheduleJobBase.Template.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob.SendMailJob", "JobExamples\MyORM.Framework.ScheduleJob.SendMailJob\MyORM.Framework.ScheduleJob.SendMailJob.csproj", "{D10F1786-9985-4B3A-B422-1ABF0C219667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B8D22B3-A519-4E3B-8953-FB30EA0DFEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8D22B3-A519-4E3B-8953-FB30EA0DFEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8D22B3-A519-4E3B-8953-FB30EA0DFEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8D22B3-A519-4E3B-8953-FB30EA0DFEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991D3B5D-9091-4F4D-99F9-DD2BB800C3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991D3B5D-9091-4F4D-99F9-DD2BB800C3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991D3B5D-9091-4F4D-99F9-DD2BB800C3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991D3B5D-9091-4F4D-99F9-DD2BB800C3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B45E3F-3FAB-464C-8A64-6AC19FBF4178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B45E3F-3FAB-464C-8A64-6AC19FBF4178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B45E3F-3FAB-464C-8A64-6AC19FBF4178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B45E3F-3FAB-464C-8A64-6AC19FBF4178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E0B00A-6C5C-404D-AFBC-202A3CB39DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E0B00A-6C5C-404D-AFBC-202A3CB39DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E0B00A-6C5C-404D-AFBC-202A3CB39DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E0B00A-6C5C-404D-AFBC-202A3CB39DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE0E3AB-21F9-4D94-BD23-BF1E83383106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE0E3AB-21F9-4D94-BD23-BF1E83383106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE0E3AB-21F9-4D94-BD23-BF1E83383106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE0E3AB-21F9-4D94-BD23-BF1E83383106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B690C4BC-900E-4C39-A518-0093E55107E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B690C4BC-900E-4C39-A518-0093E55107E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B690C4BC-900E-4C39-A518-0093E55107E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B690C4BC-900E-4C39-A518-0093E55107E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575B6C2A-388B-4E1C-AF9C-EC766BB704AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575B6C2A-388B-4E1C-AF9C-EC766BB704AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575B6C2A-388B-4E1C-AF9C-EC766BB704AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575B6C2A-388B-4E1C-AF9C-EC766BB704AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F1B06E-873A-4A56-958E-D68ABC149091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F1B06E-873A-4A56-958E-D68ABC149091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F1B06E-873A-4A56-958E-D68ABC149091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F1B06E-873A-4A56-958E-D68ABC149091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10F1786-9985-4B3A-B422-1ABF0C219667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10F1786-9985-4B3A-B422-1ABF0C219667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10F1786-9985-4B3A-B422-1ABF0C219667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10F1786-9985-4B3A-B422-1ABF0C219667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389} = {3F968DA3-2F8D-46D1-B914-05D4F74233A2}
+		{D10F1786-9985-4B3A-B422-1ABF0C219667} = {CD2052ED-7E4B-4EAA-8BA7-48D6AEBE9FC2}
+	EndGlobalSection
+EndGlobal

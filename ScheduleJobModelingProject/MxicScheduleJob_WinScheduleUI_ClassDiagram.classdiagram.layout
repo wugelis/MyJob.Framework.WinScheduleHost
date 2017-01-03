@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 16.5" name="MxicScheduleJob_WinScheduleUI_ClassDiagram">
+  <logicalClassDesignerModelMoniker Id="8487bb41-fce1-4f8c-9354-8b0dfea886fd" />
+  <nestedChildShapes>
+    <classShape Id="f1a5f339-ce57-423f-9f6b-953b71f375dc" absoluteBounds="0.5, 1.5, 3.625, 7.1056054687499994" hideQualifiedName="false" increaseHeight="0.20650390625" customColor="181, 193, 223">
+      <classMoniker Id="2c6f2263-b96a-4199-b454-d5dac65aef98" LastKnownName="frmScheduleJobUI" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="4f5282df-99da-4e6a-ba82-bf5c2ec29fca" absoluteBounds="0.515, 2.0276692708333335, 3.5949999999999998, 4.472412109375" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="f9d8a354-c04d-41fa-8c2f-55177e9f89a0" absoluteBounds="0.515, 6.5100813802083328, 3.5949999999999998, 1.995524088541667" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2abcdbac-8dac-4aa1-91dc-d43f4d669e4c" absoluteBounds="4.75, 0.5, 4.25, 15.774713541666667" hideQualifiedName="false" increaseHeight="0.20650390625" customColor="181, 193, 223">
+      <classMoniker Id="6cc6f4cd-9917-4170-b9f0-5a590ba86ea9" LastKnownName="frmAddOrEdit" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="32356683-028b-492c-ad8c-cf534c52973b" absoluteBounds="4.765, 1.0276692708333335, 4.2200000000000006, 12.079996744791666" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="0eee9143-cd10-4dc3-8488-ab7c547c119b" absoluteBounds="4.765, 13.117666015625, 4.2200000000000006, 3.0570475260416661" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

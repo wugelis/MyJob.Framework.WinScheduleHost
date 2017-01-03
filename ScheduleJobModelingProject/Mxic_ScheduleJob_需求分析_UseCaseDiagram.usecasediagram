@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8a8aa7cb-04a4-4d4b-99c6-879c05b66c5d" name="Mxic_ScheduleJob_需求分析_UseCaseDiagram" linkedPackageId="c025148d-c772-43b9-80ed-b7f85a513a8c" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="b13976e1-c765-47b1-8930-d5b73522c185">
+      <profileInstance Id="b2b93e6a-c875-4530-9cc9-9a4e9d52103b" name="CSharpProfile">
+        <elementDefinition Id="e0c72e18-3ce4-4a0a-92c2-ae72d5a409d1" />
+      </profileInstance>
+      <elementDefinition Id="0b04fd18-a303-4946-b961-589ad06e6a34" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3ddb478a-a32a-47bd-b0db-db51e3afd2d2" name="排程管理者" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="01a59fa8-ac02-417e-a037-e89bffdfff8e" />
+        <targetEnds>
+          <association Id="66ac7d06-1554-438e-b76b-06e9f65bdeff" isDerived="false" sourceEndRoleName="排程管理者" targetEndRoleName="可以手動啟動排程" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="75df9424-6f9f-4e25-819d-fc1729f9c4c5" LastKnownName="可以手動啟動排程" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e39b26a8-cd4f-4570-bc01-7d2ef9c4dce6" name="排程管理者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fcb60c69-9273-41de-9b52-69afc29acff8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="db6a11fe-27e0-4d5a-bd90-8ff5341b4319" name="可以手動啟動排程" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5eeab9a1-47d0-405b-8c17-f53fbcc494a7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2dc4ae1e-d5ed-423b-987c-9b58077410c1" />
+          </association>
+          <association Id="b30bff05-c791-487b-8d6f-3be40ecd6721" isDerived="false" sourceEndRoleName="排程管理者" targetEndRoleName="可刪除JOB" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6d6336eb-737d-46e7-bb03-9a92569ac46a" LastKnownName="可刪除JOB" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eb798d00-365c-4cf8-98fc-945e21de23cc" name="排程管理者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="046c0c65-665a-4d42-9828-f71839d07a9a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c7d01c87-9cfd-41d4-94a1-c64b87306af8" name="可刪除JOB" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cae4de2d-5b24-4d3b-abfb-789019e3511a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c0d15cc2-ed14-49b0-9b9d-23596e143bfc" />
+          </association>
+          <association Id="ab181d5e-1da2-452a-887e-770d9509364d" isDerived="false" sourceEndRoleName="排程管理者" targetEndRoleName="可編輯JOB" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5d6823ea-4de0-4d36-b30e-d293234ffb4a" LastKnownName="可編輯JOB" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3c597f97-1a26-4427-8598-46b7df1d49c4" name="排程管理者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b83a0599-331f-49ee-be62-c5ea9b9f701e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d72c49d9-547d-4310-9f35-729e80a624e5" name="可編輯JOB" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="274100ce-e3fc-40a6-84ab-1abd4f2ad388" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6898eefb-763e-4fca-b32b-f133106a6bb6" />
+          </association>
+          <association Id="5482678d-4098-4edf-a57b-bdafcf526b21" isDerived="false" sourceEndRoleName="排程管理者" targetEndRoleName="可新增JOB" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6887bcb1-6430-411c-aa1a-54faf0c158b1" LastKnownName="可新增JOB" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="528a3b95-317a-451b-916b-b4957669ea39" name="排程管理者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf1c7200-ec9a-4f79-bccb-f0eb20a459b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="260c19d2-1922-4027-9466-ab6e5192ab00" name="可新增JOB" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c05a7c30-ff71-4b77-b1ff-5c50d6a2afac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8b445604-3f4d-40e4-b4ce-a8df2345a050" />
+          </association>
+          <association Id="3b956182-6679-473e-8ad1-8ce591b3ad85" isDerived="false" sourceEndRoleName="排程管理者" targetEndRoleName="可設定月、週、日的執行方式" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d9cacd7e-132f-403e-97d0-f1f5590ef023" LastKnownName="可設定月、週、日的執行方式" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="80e03446-1224-4d98-b72a-9453ec72dbdd" name="排程管理者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="abb8525e-1afd-4798-a8e1-a9aa55ca2675" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b0dda82a-aac2-4030-b084-5d80158d0012" name="可設定月、週、日的執行方式" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="65e69602-11a3-4965-980a-a4d9908cb41b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eed72d6c-2cfa-4e1d-bd09-68097abba1fe" />
+          </association>
+          <association Id="cf0379e2-f997-4304-929c-6d1cb7dc4f3d" isDerived="false" sourceEndRoleName="排程管理者" targetEndRoleName="只需要部署DLL即可" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d2de9c1d-971d-4a56-ba50-709d38f1895b" LastKnownName="只需要部署DLL即可" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2afc309a-bcba-4d5b-a8c5-5b7fb2d96b85" name="排程管理者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="665cb005-29c3-46f5-8e61-bc837851b650" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fc07e30c-57f0-4ada-97f7-09e3a05e325a" name="只需要部署DLL即可" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a68e5984-a6d9-4508-9003-34cf5eca973e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="28f4fc4f-9f75-494f-92f8-3ba38b163954" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f46e83ff-02c2-4fea-8993-f2518c64bdcc" name="排程開發者" isAbstract="false" isLeaf="false">
+        <description>排程開發者 (Developer)</description>
+        <elementDefinition Id="ad077a46-0ba9-4eaa-95ef-efbe719063b2" />
+        <targetEnds>
+          <association Id="32947b6f-a924-4ae8-81f3-162e7b740a3e" isDerived="false" sourceEndRoleName="排程開發者" targetEndRoleName="開發時只需要關注在JOB執行的內容" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e2dff60d-fc7e-49ce-b936-9518f42deda0" LastKnownName="開發時只需要關注在JOB執行的內容" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f007437c-6da0-4d30-ae2a-f7b0c1fbe120" name="排程開發者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a6ea7357-db6b-441d-9a6f-6356c2b3a198" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f543152-a008-4f65-afc0-4a1aee2298d1" name="開發時只需要關注在JOB執行的內容" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b9f3361f-f108-4cd7-ad15-728c684d1968" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ebb6f583-6de2-4693-8d06-c8b70476a2ee" />
+          </association>
+          <association Id="d7f28a2f-e65a-41a4-8fd3-b05da8e84aec" isDerived="false" sourceEndRoleName="排程開發者" targetEndRoleName="在開發時，要可以可透過NuGet來自動參考必要的相關元件" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="28025b5c-5634-4214-b6bd-303949fe4cf3" LastKnownName="在開發時，要可以可透過NuGet來自動參考必要的相關元件" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1551abd5-d196-4219-b73f-e59bdccd6ba6" name="排程開發者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9722dd3b-65ab-4e17-87fc-c2d9548dc3ab" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed93227c-30a7-483b-b67e-7c268569feaf" name="在開發時，要可以可透過NuGet來自動參考必要的相關元件" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9ed1d47f-8971-4e18-b45c-f22a60daec46" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="55d3ab56-8c32-4c6f-af22-53f0a58c32be" />
+          </association>
+          <association Id="26bbfd18-dfe1-4fde-a486-343d3cf9a7f0" isDerived="false" sourceEndRoleName="排程開發者" targetEndRoleName="可以掛[LogAttribute]就會記錄LOG資訊" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="64087041-9e0d-44d5-b213-c98b894ace55" LastKnownName="可以掛[LogAttribute]就會記錄LOG資訊" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f0599f03-0039-48c3-ab67-9ecc82d1d6b1" name="排程開發者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b97d49ff-5a84-4a6b-86ec-fec303c0aa24" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8bc01ee7-bb35-47ae-aa31-706dd269dc1c" name="可以掛[LogAttribute]就會記錄LOG資訊" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="985fbec1-886e-43e7-b790-6d1a81d0f01e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f4e988a0-1660-40d1-b001-5a205cd918e7" />
+          </association>
+          <association Id="64a6cd40-076b-4d36-b7a3-f63794287182" isDerived="false" sourceEndRoleName="排程開發者" targetEndRoleName="只要會開發類別庫專案" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2f010060-b556-4df3-a1ec-632484f63a75" LastKnownName="只要會開發類別庫專案" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="03ae6d51-1f8d-405f-a19f-c9336851e1e1" name="排程開發者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="855dabc8-09b1-44dd-bac5-59df1844d879" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b80a13f-2afd-4a22-8eb0-db3a3d9b3354" name="只要會開發類別庫專案" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1035417e-7ed0-49a5-97bb-5f788c20668c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8a379074-b09e-4c51-9f59-d1ae9af67752" />
+          </association>
+          <association Id="337112dd-0d64-419d-b395-b1bbf0f24899" isDerived="false" sourceEndRoleName="排程開發者" targetEndRoleName="可以掛上[Exception]屬性就有例外處理機制" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="64b371a5-570f-48dd-a521-31e6560745ad" LastKnownName="可以掛上[Exception]屬性就有例外處理機制" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d67dd2b6-607f-4abf-a382-9783f34853d4" name="排程開發者" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="26bb635d-1929-468f-8018-e0bbd01edf14" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="78d78f9f-71ad-4d51-b119-94f7d6964aa9" name="可以掛上[Exception]屬性就有例外處理機制" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7985044f-021e-488c-b5d0-51e6922610e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="366f1aff-95bc-44f5-8863-235d3d72632e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e2dff60d-fc7e-49ce-b936-9518f42deda0" name="開發時只需要關注在JOB執行的內容" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d55344ba-eba0-460d-aae4-aa3e998775ef" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="28025b5c-5634-4214-b6bd-303949fe4cf3" name="在開發時，要可以可透過NuGet來自動參考必要的相關元件" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="823aebf8-101b-4008-b62c-347868992760" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="64087041-9e0d-44d5-b213-c98b894ace55" name="可以掛[LogAttribute]就會記錄LOG資訊" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b4d3f62a-4127-428e-8ce7-8eed84f1a5e3" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2f010060-b556-4df3-a1ec-632484f63a75" name="只要會開發類別庫專案" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="aeebebc2-cf97-477c-970b-14fa329a7e71" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="64b371a5-570f-48dd-a521-31e6560745ad" name="可以掛上[Exception]屬性就有例外處理機制" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d345c1e0-318c-493c-b4ba-fa8e3dd507dd" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d2de9c1d-971d-4a56-ba50-709d38f1895b" name="只需要部署DLL即可" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7c9a6d49-21e7-48f0-8197-20c34990c3d3" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c2f82fe2-8b16-4a45-a53b-e8336f1048b4" name="需有有UI管理畫面" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="093758dd-e978-4b59-8c68-50b23b0bcda0" />
+        <extendedCases>
+          <extend Id="74507b4f-0d32-4e27-b7be-73d22e3fe2fa">
+            <useCaseMoniker Id="b31d137e-4d8f-43c4-9832-bd6b97b933eb" LastKnownName="ScheduleJob 服務以Win32 Service 方式執行" />
+            <elementDefinition Id="41e62b22-cafd-4439-b7db-1d05c4eed418" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5d6823ea-4de0-4d36-b30e-d293234ffb4a" name="可編輯JOB" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fa9c8eed-e13b-488f-8c77-8215182e0709" />
+        <additions>
+          <include Id="cdd970e7-6cda-4160-a6a5-7fb2692653ac">
+            <useCaseMoniker Id="c2f82fe2-8b16-4a45-a53b-e8336f1048b4" LastKnownName="需有有UI管理畫面" />
+            <elementDefinition Id="fb83ec04-fa8c-4529-a878-b3c7c7e89cba" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6d6336eb-737d-46e7-bb03-9a92569ac46a" name="可刪除JOB" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8eb414fe-ebf8-4708-89f9-226f314fbb5e" />
+        <additions>
+          <include Id="b4969410-a4cf-4f57-96f3-21b6b2a1d7b0">
+            <useCaseMoniker Id="c2f82fe2-8b16-4a45-a53b-e8336f1048b4" LastKnownName="需有有UI管理畫面" />
+            <elementDefinition Id="5785c730-e9d1-458a-9634-1b50393dbb47" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8e212749-89d6-4f8e-93a7-b36e49f661bb" name="需有監控機制" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="46b5307e-60d9-43cf-acbc-d70cbb3fd3fd" />
+        <additions>
+          <include Id="01fa9e72-5873-42c7-9eaa-5d99bd12675e">
+            <useCaseMoniker Id="c2f82fe2-8b16-4a45-a53b-e8336f1048b4" LastKnownName="需有有UI管理畫面" />
+            <elementDefinition Id="fc36bdfc-18a2-42a8-b529-6606c6b6012c" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d9cacd7e-132f-403e-97d0-f1f5590ef023" name="可設定月、週、日的執行方式" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2b7a6c8a-6586-4f8f-8db2-7f48da41fff0" />
+        <additions>
+          <include Id="2b92d8aa-cedd-46dc-a7c5-314d3472a147">
+            <useCaseMoniker Id="c2f82fe2-8b16-4a45-a53b-e8336f1048b4" LastKnownName="需有有UI管理畫面" />
+            <elementDefinition Id="211b6734-0f07-4c4d-94ed-9e25bf4a5cc3" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6887bcb1-6430-411c-aa1a-54faf0c158b1" name="可新增JOB" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0d949826-52ff-4da1-abc2-9fe8a8eb840f" />
+        <additions>
+          <include Id="d6d394cf-3f4c-4760-adc2-bd37caaf8514">
+            <useCaseMoniker Id="c2f82fe2-8b16-4a45-a53b-e8336f1048b4" LastKnownName="需有有UI管理畫面" />
+            <elementDefinition Id="aff382c8-124d-404d-a3ad-33cf0fb168a5" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="75df9424-6f9f-4e25-819d-fc1729f9c4c5" name="可以手動啟動排程" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9d0273e7-cfe1-4918-a628-68990f29e313" />
+        <additions>
+          <include Id="fe1bfc4a-28b5-40dd-a7eb-b4e96680238e">
+            <useCaseMoniker Id="c2f82fe2-8b16-4a45-a53b-e8336f1048b4" LastKnownName="需有有UI管理畫面" />
+            <elementDefinition Id="427b8eed-8cca-48c6-af62-73d3e8c6ec34" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b31d137e-4d8f-43c4-9832-bd6b97b933eb" name="ScheduleJob 服務以Win32 Service 方式執行" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e593060d-41ac-4377-890d-4b8c674615c3" />
+        <targetEnds>
+          <association Id="fdaa50f9-9de7-40d7-b682-b9581ca807e7" isDerived="false" sourceEndRoleName="ScheduleJob 服務以Win32 Service 方式執行" targetEndRoleName="ScheduleJob DLL Loader" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="20b27f83-3a4a-477e-8841-1326fd163db4" LastKnownName="ScheduleJob DLL Loader" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1205a4eb-321b-49b9-87fa-facebac7c2b3" name="ScheduleJob 服務以Win32 Service 方式執行" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="899acce1-c460-425d-ac1f-a6c88b55937f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e98fa640-cd7b-423a-932a-25f00f997d62" name="ScheduleJob DLL Loader" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6567f1b6-5d83-4735-ba00-6d454b4000a2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8ff07afc-4bac-428e-a306-0ccbde3e309b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e6fc59c5-f6cc-4ad3-9d04-53e06fe5656a" name="動態載入寫好的DLL" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="922c3a0a-7089-49f6-8e0e-18ccbab31d1f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="20b27f83-3a4a-477e-8841-1326fd163db4" name="ScheduleJob DLL Loader" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="767f0787-c52f-44db-91b5-ff1e5c23dbf3" />
+        <targetEnds>
+          <association Id="8b5ff837-616a-4290-96ad-6f2044e64cb2" isDerived="false" sourceEndRoleName="ScheduleJob DLL Loader" targetEndRoleName="動態載入寫好的DLL" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e6fc59c5-f6cc-4ad3-9d04-53e06fe5656a" LastKnownName="動態載入寫好的DLL" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fcdb88a4-7248-445d-a4ae-dc3635ce9490" name="ScheduleJob DLL Loader" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="782be88f-e115-4559-a304-2ef98775bba7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="94920bf6-a228-48c2-bb3b-ad88bea94fe2" name="動態載入寫好的DLL" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="03240e4b-0fa0-4228-bf90-7ffe3a47e3fd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1f0d4574-451e-4811-95ff-4216bc64a3b2" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="c025148d-c772-43b9-80ed-b7f85a513a8c" name="ScheduleJobModelingProject">
+    <elementDefinition Id="6258ee25-59bc-474a-8139-81901c213c83" />
+    <profileInstances>
+      <packageHasProfileInstances Id="5e8083b1-ae45-407c-92ad-ee26bff848c7">
+        <profileInstance Id="8d32d86d-e276-4665-be22-31935f518931" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="492310ba-5342-492d-be6d-957a86479883">
+        <profileInstance Id="247fb651-c4f0-4c20-b38b-56ee1b5f89d1" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="cf14cf7a-9bc0-4a94-bed8-f368855cde8c" name="UseCase_排程服務系統" linkedPackageId="5cfd0896-022b-4e3f-8da4-148e7dd7f465" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="1025d8ff-4ad7-4ff4-8f73-b253cd6f498f" name="開發人員" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d0ade544-6894-4704-8c93-9727d2fd24d8" />
+        <targetEnds>
+          <association Id="605638af-c5a7-43a8-b2ae-6355f97a2856" isDerived="false" sourceEndRoleName="開發人員" targetEndRoleName="透過實作 IJob 介面開發排程" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c65fb57f-3002-4ab0-bd8b-8137d6b13c73" LastKnownName="透過實作 IJob 介面開發排程" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bf0417a0-d44d-4ebf-8d91-d05562ffa85f" name="開發人員" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="361cdf13-b87c-4d6c-aaca-943279f60c89" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="df860f39-315d-4bef-a755-d8406863b2fe" name="透過實作 IJob 介面開發排程" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="102bc7c6-2964-47ee-91c5-acc334b0d2c5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ba98afc1-161b-4840-acad-8efaca656f7d" />
+          </association>
+          <association Id="94ac76f8-6239-4744-ad05-20a47f464346" isDerived="false" sourceEndRoleName="開發人員" targetEndRoleName="透過 XML 檔案定義 Schedule Jod 清單內容" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6e615c28-80d6-4ac9-b239-dff24549dd74" LastKnownName="透過 XML 檔案定義 Schedule Jod 清單內容" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d9cb5c75-08ed-441e-ab92-f60f4428f66e" name="開發人員" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="67967d9e-382c-4da9-b3c5-c98718202a2a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aced3442-6b3d-4b77-84d3-c45e2e9b1574" name="透過 XML 檔案定義 Schedule Jod 清單內容" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="976f7058-9271-46a1-a131-771f92c571ea" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="85407595-73a9-42bf-9fe5-072bbebf5b18" />
+          </association>
+          <association Id="dffb5332-38ac-4a77-aa6d-8783a90d4a19" isDerived="false" sourceEndRoleName="開發人員" targetEndRoleName="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="05533da0-8b4f-4da1-8f84-b2d1dee36f5f" LastKnownName="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cb97e500-6f70-41f4-ab5f-04d79b5abdc7" name="開發人員" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="39a9cadc-37d7-4143-97e7-703d68e588f6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b847f5b2-c1ad-4035-8779-9d20ce657739" name="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="53a98565-affd-46f9-8acc-1bf696070267" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="47883fe7-7fa7-4b35-828b-3196b3eabb73" />
+          </association>
+          <association Id="79324535-8473-489d-a2b7-4206142e0cff" isDerived="false" sourceEndRoleName="開發人員" targetEndRoleName="只要將DLL複製到BIN底下即可執行" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b54c64bb-c5bb-43e8-8dac-5792729e32aa" LastKnownName="只要將DLL複製到BIN底下即可執行" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9660c9e8-22eb-4385-bb2c-f6e87c617ee5" name="開發人員" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8a78aefe-c8b5-4073-a97d-ddaf1b5b5dc4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="21ea719c-0e1c-4fed-bf10-9c382cf84ceb" name="只要將DLL複製到BIN底下即可執行" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="755358dd-096e-4f1f-a5ab-290d82d00a61" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f62dc89f-b410-4b0b-a68a-34e868ee1eff" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="278eec2f-cc25-44f8-8eca-c50b4e1c643a" name="作業員" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="89759e51-0bc2-45bd-8847-7af88405696f" />
+        <targetEnds>
+          <association Id="315e943c-6d94-41aa-9ac3-275089f636d5" isDerived="false" sourceEndRoleName="作業員" targetEndRoleName="Schedule Job UI 編輯器" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="726a053a-713a-4577-8e36-35661693aab3" LastKnownName="Schedule Job UI 編輯器" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="84c7b4cf-1c66-4226-a462-cd5e7341638a" name="作業員" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a1fdf2e2-d67c-4050-b4d3-abf9197900f3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a8e56947-449d-4b97-8ea7-f9619cd57143" name="Schedule Job UI 編輯器" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1e29514a-88fa-4011-ad37-0929b0641947" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="300d3cad-1459-41ce-b5ca-d78282d4fbf4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c65fb57f-3002-4ab0-bd8b-8137d6b13c73" name="透過實作 IJob 介面開發排程" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0d9f5c76-41fe-48d0-b086-13cae02f4d3d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6e615c28-80d6-4ac9-b239-dff24549dd74" name="透過 XML 檔案定義 Schedule Jod 清單內容" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eee2a52e-e3cf-46a1-9bc0-293cc3000a17" />
+        <additions>
+          <include Id="99ef69a7-f4ff-458c-93f9-8d3e16e3c1ce">
+            <useCaseMoniker Id="726a053a-713a-4577-8e36-35661693aab3" LastKnownName="Schedule Job UI 編輯器" />
+            <elementDefinition Id="9800a633-86dc-4168-8cee-88cff2cab905" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="05533da0-8b4f-4da1-8f84-b2d1dee36f5f" name="可從 Windows 服務的 Console 介面中控制 (重新啟動、等等)" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3242f161-8bb9-4c31-8677-c8213d41f279" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b54c64bb-c5bb-43e8-8dac-5792729e32aa" name="只要將DLL複製到BIN底下即可執行" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="60ad7081-bfda-4ce6-9c79-18333bfe2ea1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="726a053a-713a-4577-8e36-35661693aab3" name="Schedule Job UI 編輯器" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9f88e9d3-5855-45f1-a139-d30083e4b77d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="5cfd0896-022b-4e3f-8da4-148e7dd7f465" name="Mxic.Framework.ModelingProject">
+    <elementDefinition Id="40da5d32-0d8d-4fea-ba54-9348b79fbb3e" />
+    <profileInstances>
+      <packageHasProfileInstances Id="397b9e71-65ba-4cf7-91ca-e1e62e88795d">
+        <profileInstance Id="79d9cf5b-6fba-4a9e-a259-6f8ac2c14303" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e7bd59ad-c180-4e96-a609-bec611322dc6">
+        <profileInstance Id="b41f0b4e-6b61-4576-927f-f140bd09fea5" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

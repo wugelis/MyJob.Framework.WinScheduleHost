@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="程式碼產生/文字轉換記錄檔">
+  <MessageClass Name="Message" Label="訊息" Option="顯示資訊訊息" />
+  <MessageClass Name="Warning" Label="警告" Option="顯示警告" />
+  <MessageClass Name="Error" Label="錯誤" Option="顯示錯誤" />
+  <MessageClass Name="Property" Label="屬性" Option="顯示中繼資料" />
+  <MessageClass Name="Diagnostic" Label="訊息" Option="顯示診斷訊息" />
+  <Message Timestamp="2015-01-09T10:55:51" Importance="High" Text="還原工程已啟動。" />
+  <Error Timestamp="2015-01-09T10:55:51" Importance="High" Text="長度不可以小於零。&#xD;&#xA;參數名稱: length 還原工程處理序已停止。" />
+  <Message Timestamp="2015-01-09T10:55:51" Importance="Diagnostic" Text="已進行還原工程至 UML 模型的項目: 'ScheduleJobModelingProject::Mxic' -  (Package)" />
+  <Message Timestamp="2015-01-09T10:55:51" Importance="Diagnostic" Text="已進行還原工程至 UML 模型的項目: 'ScheduleJobModelingProject::Mxic::Framework' -  (Package)" />
+  <Message Timestamp="2015-01-09T10:55:51" Importance="Diagnostic" Text="已進行還原工程至 UML 模型的項目: 'ScheduleJobModelingProject::Mxic::Framework::ScheduleJob' -  (Package)" />
+  <Message Timestamp="2015-01-09T10:55:51" Importance="Diagnostic" Text="已進行還原工程至 UML 模型的項目: 'ScheduleJobModelingProject::Mxic::Framework::ScheduleJob::Engine' -  (Package)" />
+  <Message Timestamp="2015-01-09T10:55:51" Importance="High" Text="(0) 個類型已完全完成還原工程。" />
+  <Message Timestamp="2015-01-09T10:55:51" Importance="High" Text="還原工程作業已完成，(1) 個錯誤和 (0) 個警告。" />
+</Log>

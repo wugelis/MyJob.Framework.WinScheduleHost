@@ -15,13 +15,13 @@ MyJob ScheduleJob Service 須以 Win32 服務方式運行，須具備與Windows 
 因此開發人員只需要專注在 ScheduleJob 要處理的商務邏輯，其他如錯誤處理 (Exception Handler)、紀錄(Log)、重試機制(ReTry)，等等，ScheduleJob Framewok 底層會自動處理，因此開發人員不必實作這個部分。
 
 另外 MyJob ScheduleJob 必須提供一 Window UI 介面，讓ScheduleJob的管理員可在UI介面上新增、修改、刪除所有的ScheduleJob排程服務，並提供『手動執行』排程的功能，以便當有需要手動執行某些工作時可以使用。
-![alt tag](http://i.imgur.com/sfhUWF1.jpg)
+![alt tag](http://i.imgur.com/aYHhbEV.jpg)
 
 另外，MyJob ScheduleJob Services 也提供監控機制，提供 ScheduleJob 管理員可以輕易查看目前排程執行的狀況，正在執行的排程有幾個，閒置的排程有多少個，是否有執行過久的排程等等。
 ![alt tag](http://i.imgur.com/3mwIgKe.jpg)
 
 ## MyJob ScheduleJob Services 整個運作示意圖如下：
-![alt tag](http://i.imgur.com/jezHdBN.jpg)
+![alt tag](http://i.imgur.com/ofIRTDy.jpg)
 
 ## 各個元件的詳細說明
 1.	MyJob.Framework.ScheduleHostService

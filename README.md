@@ -38,8 +38,11 @@ MyJob ScheduleJob Service 須以 Win32 服務方式運行，須具備與Windows 
 
 Job 的執行狀態有下列三種：	
 ● Idel (服務閒置狀態)
+
 ●	Starting (服務啟動中)
+
 ●	Running (服務執行中)
+
 
 3.	MyJob.Framework.ScheduleJob.Core
 為ScheduleJob的核心處理部分，包括：動態讀取DLL、讀取DLL內部的Class與動態執行DLL內部方法的實作均定義在此元件中。

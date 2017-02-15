@@ -72,9 +72,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(13, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(227, 16);
+            this.label1.Size = new System.Drawing.Size(207, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "旺宏電子 ScheduleJob 編輯器";
+            this.label1.Text = "MyJob ScheduleJob 編輯器";
             // 
             // gvJobGridView
             // 
@@ -283,7 +283,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmScheduleJobUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ScheduleJob Editor v1.0 (旺宏電子 ScheduleJob 編輯器)";
+            this.Text = "ScheduleJob Editor v1.0 (MyJob ScheduleJob 編輯器)";
             this.Load += new System.EventHandler(this.frmScheduleJobUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gvJobGridView)).EndInit();
             this.ResumeLayout(false);

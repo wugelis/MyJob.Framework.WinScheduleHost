@@ -888,7 +888,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAddOrEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "旺宏電子 ScheduleJob Editor. v1.0";
+            this.Text = "MyJob ScheduleJob Editor. v1.0";
             this.gbMonth.ResumeLayout(false);
             this.gbMonth.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numMinuteMonth)).EndInit();

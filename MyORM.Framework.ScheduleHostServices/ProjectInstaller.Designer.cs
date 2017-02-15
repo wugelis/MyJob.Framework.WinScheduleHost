@@ -39,9 +39,9 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.Description = "旺宏電子的 Schedule Job 排程服務";
-            this.serviceInstaller1.DisplayName = "MxicScheduleJobService";
-            this.serviceInstaller1.ServiceName = "MxicScheduleJobService";
+            this.serviceInstaller1.Description = "MyJob Schedule Job 排程服務";
+            this.serviceInstaller1.DisplayName = "MyJobScheduleJobService";
+            this.serviceInstaller1.ServiceName = "MyJobScheduleJobService";
             // 
             // ProjectInstaller
             // 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobExamples", "JobExamples", "{CD2052ED-7E4B-4EAA-8BA7-48D6AEBE9FC2}"
 EndProject
@@ -33,6 +33,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJobBase.Template", "MyORM.Framework.ScheduleJobBase.Template\MyORM.Framework.ScheduleJobBase.Template.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob.SendMailJob", "JobExamples\MyORM.Framework.ScheduleJob.SendMailJob\MyORM.Framework.ScheduleJob.SendMailJob.csproj", "{D10F1786-9985-4B3A-B422-1ABF0C219667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob.CommonUtil", "MyORM.Framework.ScheduleJob.CommonUtil\MyORM.Framework.ScheduleJob.CommonUtil.csproj", "{CA4935E8-927F-4122-A5E5-48624FD5B88B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,6 +82,10 @@ Global
 		{D10F1786-9985-4B3A-B422-1ABF0C219667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10F1786-9985-4B3A-B422-1ABF0C219667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10F1786-9985-4B3A-B422-1ABF0C219667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4935E8-927F-4122-A5E5-48624FD5B88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4935E8-927F-4122-A5E5-48624FD5B88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4935E8-927F-4122-A5E5-48624FD5B88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4935E8-927F-4122-A5E5-48624FD5B88B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

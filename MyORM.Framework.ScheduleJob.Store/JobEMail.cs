@@ -1,4 +1,4 @@
-﻿using GelisFrameworks.Net.Mail;
+﻿using MyORM.Framework.ScheduleJob.CommonUtil.Net;
 using System;
 using System.Collections.Generic;
 using System.Configuration;

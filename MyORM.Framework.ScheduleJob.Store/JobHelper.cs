@@ -1,4 +1,4 @@
-﻿using GelisFrameworks.Xml;
+﻿using MyORM.Framework.ScheduleJob.CommonUtil.Xml;
 using System;
 using System.Collections.Generic;
 using System.IO;

@@ -36,6 +36,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyORM.Framework.ScheduleJob.CommonUtil", "MyORM.Framework.ScheduleJob.CommonUtil\MyORM.Framework.ScheduleJob.CommonUtil.csproj", "{CA4935E8-927F-4122-A5E5-48624FD5B88B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup Installers", "Setup Installers", "{809640D1-487F-495E-B147-4DD211803B0F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyJobScheduleSetup1", "MyJobScheduleSetup1\MyJobScheduleSetup1.vdproj", "{0596AD69-922A-4389-9B79-4D08847CBB58}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyORMScheduleJobServiceSetup", "MyORMScheduleJobServiceSetup\MxicScheduleJobServiceSetup.vdproj", "{30795B1B-B80F-42F6-81CF-C4FD640C38F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +92,12 @@ Global
 		{CA4935E8-927F-4122-A5E5-48624FD5B88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA4935E8-927F-4122-A5E5-48624FD5B88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA4935E8-927F-4122-A5E5-48624FD5B88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0596AD69-922A-4389-9B79-4D08847CBB58}.Debug|Any CPU.ActiveCfg = Debug
+		{0596AD69-922A-4389-9B79-4D08847CBB58}.Release|Any CPU.ActiveCfg = Release
+		{30795B1B-B80F-42F6-81CF-C4FD640C38F8}.Debug|Any CPU.ActiveCfg = Debug
+		{30795B1B-B80F-42F6-81CF-C4FD640C38F8}.Debug|Any CPU.Build.0 = Debug
+		{30795B1B-B80F-42F6-81CF-C4FD640C38F8}.Release|Any CPU.ActiveCfg = Release
+		{30795B1B-B80F-42F6-81CF-C4FD640C38F8}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,5 +105,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0451BAEF-DF2E-4B98-8644-94EE9415E389} = {3F968DA3-2F8D-46D1-B914-05D4F74233A2}
 		{D10F1786-9985-4B3A-B422-1ABF0C219667} = {CD2052ED-7E4B-4EAA-8BA7-48D6AEBE9FC2}
+		{0596AD69-922A-4389-9B79-4D08847CBB58} = {809640D1-487F-495E-B147-4DD211803B0F}
 	EndGlobalSection
 EndGlobal

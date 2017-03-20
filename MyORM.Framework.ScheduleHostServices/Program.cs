@@ -17,7 +17,7 @@ namespace MyORM.Framework.ScheduleHostServices
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
             { 
-                new MxicScheduleJobServices() 
+                new MyJobScheduleJobServices() 
             };
             ServiceBase.Run(ServicesToRun);
         }

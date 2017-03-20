@@ -105,18 +105,18 @@ namespace MyORM.Framework.ScheduleJob.Store
             var mailLogTarget = new MailTarget();
             mailLogTarget.Name = "mail";
 
-            mailLogTarget.SmtpServer = "smtp.gmail.com";
+            mailLogTarget.SmtpServer = "[yourSmtp]";
             mailLogTarget.SmtpPort = 25;
             mailLogTarget.SmtpAuthentication = SmtpAuthenticationMode.Basic;
-            mailLogTarget.SmtpUserName = "gelis.wu@mentortrust.com";
-            mailLogTarget.SmtpPassword = "GELISpass01!";
+            mailLogTarget.SmtpUserName = "[yourEMail]";
+            mailLogTarget.SmtpPassword = "[yourpassword]!";
             mailLogTarget.EnableSsl = false;
-            mailLogTarget.From = "MIX Web.MxicWebHost &lt;gelis.wu@mentortrust.com&gt;";
-            mailLogTarget.To = "gelis.wu@mentortrust.com";
+            mailLogTarget.From = "[from01] &lt;[from02] &gt;";
+            mailLogTarget.To = "[to]";
             mailLogTarget.Html = true;
             mailLogTarget.Encoding = Encoding.UTF8;
             mailLogTarget.AddNewLines = true;
-            mailLogTarget.Subject = "System message for Web.MxicWebHost：${machinename} 於 ${shortdate} ${time} Create ${level} record of level.";
+            mailLogTarget.Subject = "System message for WebHost：${machinename} 於 ${shortdate} ${time} Create ${level} record of level.";
             mailLogTarget.Header = "=========================================================================";
             mailLogTarget.Body = @"Time：${longdate}
                 ${newline}Log Level：${level:uppercase=true}

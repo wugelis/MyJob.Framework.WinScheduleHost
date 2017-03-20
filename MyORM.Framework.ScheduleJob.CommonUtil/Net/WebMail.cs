@@ -169,5 +169,6 @@ namespace MyORM.Framework.ScheduleJob.CommonUtil.Net
             smtpClient.Timeout = timeOut;
             smtpClient.Send(mailMsg);
         }
+
     }
 }

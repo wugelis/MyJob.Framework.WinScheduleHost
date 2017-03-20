@@ -1,6 +1,6 @@
 ﻿namespace MyORM.Framework.ScheduleHostServices
 {
-    partial class MxicScheduleJobServices
+    partial class MyJobScheduleJobServices
     {
         /// <summary> 
         /// 設計工具所需的變數。
@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             // 
-            // MxicScheduleJobServices
+            // MyJobScheduleJobServices
             // 
-            this.ServiceName = "MxicScheduleJobServices";
+            this.ServiceName = "MyJobScheduleJobServices";
 
         }
 

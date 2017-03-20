@@ -12,9 +12,9 @@ using System.Threading.Tasks;
 
 namespace MyORM.Framework.ScheduleHostServices
 {
-    public partial class MxicScheduleJobServices : ServiceBase
+    public partial class MyJobScheduleJobServices : ServiceBase
     {
-        public MxicScheduleJobServices()
+        public MyJobScheduleJobServices()
         {
             InitializeComponent();
         }

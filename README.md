@@ -56,7 +56,13 @@ Job 的執行狀態有下列三種：
 6.	MyJob.Framework.WinScheduleUI
 提供視覺化設定、新增、調整ScheduleJob的UI工具。
 
-7. 授權
+7. MyJob.Framework.ScheduleJob.CommonUtil
+放置共用類別，如：WebMail、XmlTools、SerializationHelper 等等
+
+## 注意
+本 ScheduleJob 系統內參照的 Dimerco.BO.ServerComponent.0.9.5.0.nupkg 與 Dimerco.Core.0.9.5.0.nupkg 請將其放置在檔案系統中，再使用Visual Studio 的 NuGet 封裝管理員 => 套件管理員設定 => 套件來源 => 「新增」可用套件來源，接著請點選「更新」，最後按「確定」後加入該套件來源。
+
+## 本軟體授權方式
 本軟體使用 MIT 授權條款（Massachusetts Institute of Technology）, Copyright (C) 2017 Gelis Wu.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
